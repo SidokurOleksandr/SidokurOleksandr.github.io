@@ -1,5 +1,5 @@
 body{
-    height:1200px;
+    height:100%;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -10,7 +10,7 @@ body{
     height:1200px;
     width:1200px;
 }
-.box {
+.boxes__box {
     width:600px;
     height:600px;
     display:flex;
@@ -19,26 +19,26 @@ body{
     position:relative;
 }
 
-.yellow{
+.boxes__box-yellow{
     background-color: #ffe400;
     z-index:4;
 }
 
-.green{
+.boxes__box-green{
     background-color: #54ff00;
     top:145px;
     right:55px;
     z-index:2;
 }
 
-.blue{
+.boxes__box-blue{
     background-color: #0030ff;
     left:75px;
     bottom:95px;
     z-index:3;
 }
 
-.red{
+.boxes__box-red{
     background-color:red;
     top:55px;
     left:90px;
@@ -59,9 +59,24 @@ line{
     visibility:hidden;
 }
 
-.box:hover{
+.boxes__box:hover{
     z-index:10;
 }
-.box:hover line{
+.boxes__box:hover line{
     visibility:visible;
+}
+@media screen and (max-width:1216px){
+    .boxes{
+        display:flex;
+        flex-direction:column-reverse;
+        flex-wrap:nowrap;
+        width:600px;
+        height:auto;
+    }
+   .boxes__box{
+       position:static;
+   }
+   line{
+       visibility:visible;
+   }
 }

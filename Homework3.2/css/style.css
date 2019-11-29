@@ -2,9 +2,14 @@
     margin:0;
     padding:0;
 }
-body{
+html,body{
+    height:100%;
     background-color: #efefef;
 
+}
+img{
+    max-width:100%;
+    height:auto;
 }
 .container{
     display:flex;
@@ -15,13 +20,19 @@ body{
 .product{
     width:465px;
     height:610px;
-    background-color: #37b0ae;
+    background-color:#37b0ae ;
+
 }
 .product__heading{
     color:white;
     margin:15px;
     font-weight:700;
     font-style:italic;
+}
+.product__images{
+    height:90%;
+    background:#37b0ae url(../img/camera-shadow.png) no-repeat border-box bottom -30px right -20px;
+    background-size:contain;
 }
 .product__img{
   position:relative;
@@ -31,19 +42,12 @@ body{
 
 }
 
-.product__shadow{
-    position:relative;
-   z-index:0;
-    bottom:270px;
-    right:130px;
-}
-
 .gallery{
     display:flex;
     flex-direction:column;
-align-items:center;
+    align-items:center;
     justify-content:center;
-position:absolute;
+    position:absolute;
 }
 
 .gallery__img{
@@ -53,10 +57,10 @@ background-color: rgba(239, 239, 239, 0.5);
     right:30px;
 }
 
-.gallery__camera-view{
+.img__view{
     object-fit: contain;
     width:100px;
-    flex-basis:100px;
+    height:100px;
 }
 .gallery__img:hover{
     transform: scale(2);
@@ -66,7 +70,6 @@ background-color: rgba(239, 239, 239, 0.5);
 
 .info{
     padding:40px 40px 40px 80px;
-
     width:420px;
     height:620px;
     background-color:white;
@@ -76,10 +79,10 @@ background-color: rgba(239, 239, 239, 0.5);
     color:#7c8d9c;
 
 }
-.info__heading-1{
+.heading__1{
     color: #3a4d5c;
 }
-.info__heading-2{
+.heading__2{
     color: #89949d;
     font-weight:lighter;
 
@@ -89,7 +92,7 @@ background-color: rgba(239, 239, 239, 0.5);
     font-size:13px;
 }
 
-.info__list-name{
+.features__heading{
     color: #7c8d9c;
     padding:10px 0;
 }
@@ -97,7 +100,7 @@ background-color: rgba(239, 239, 239, 0.5);
     padding:0 15px;
     list-style:none;
 }
-.info__list-item{
+.list__item{
     padding:5px;
     list-style:square url("../img/square.png");
 }
@@ -153,11 +156,11 @@ margin-top:10px;
     display:flex;
     align-items:flex-end;
 }
-.info__price-current{
+.price__current{
     font-size:37px;
     color: #3a4d5c;
 }
-.info__price-old{
+.price__old{
 color: #9fabb6;
     font-size:13px;
     margin-left:10px;
@@ -183,33 +186,31 @@ justify-content:space-between;
     background-color: #37b0ae;
     border:solid #37b0ae 1px;
 }
-/*
-.info__button{
+@media screen and (max-width:1000px){
 
-    height:45px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-basis: 200px;
-    border:solid gray 1px;
+    .container{
+        flex-direction:column;
+    }
+    .product{
+        width:540px;
+
+    }
+    .product__images{
+        width:400px;
+        height:400px;
+        margin:auto;
+    }
+    .product__img{
+        right:0;
+        top:0;
+        width:340px;
+        height:340px;
+    }
+    .gallery{
+        flex-direction:row-reverse;
+    }
+    .gallery__img{
+		right:0;
+		top:-150px;
+    }
 }
-.info__button:hover{
-    background-color: #37b0ae;
-    border:solid #37b0ae 1px;
-}
-
-.info__button:hover .button__link {
-    color:white;
-
-}
-.button__link{
-    flex-grow:1;
-    color:#7c8d9c;
-    text-decoration:none;
-}
-
-
-
- width:40px;
-    height:35px;
-*/

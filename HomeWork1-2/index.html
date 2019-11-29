@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Perchu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
 <header class="head">
     <div class="head__logo">
-        <div class="logo">"</div>
+        <div class="logo">&#8220;</div>
         <h1>Prechu</h1>
     </div>
     <nav>
@@ -19,21 +20,29 @@
             <li><a href="#">Services</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
+        <div class="MobileMenu">
+            <svg>
+                <line x1="10" y1="12.5" x2="50" y2="12.5"/>
+                <line x1="10" y1="22.5" x2="50" y2="22.5"/>
+                <line x1="10" y1="32.5" x2="50" y2="32.5"/>
+            </svg>
+        </div>
     </nav>
 </header>
 <main>
     <div class="banner">
-        <img src="img/arrowl.png" alt="next slide">
-        <img src="img/banner2.png" alt="SmartPhone">
+        <img src="img/arrowl.png" alt="next slide" class="banner__arrow">
+        <div class="banner__img"><img src="img/banner2.png" alt="SmartPhone"></div>
         <div class="banner__text">
-            <h2 class="banner__text-header">Lorem Ipsum is simply</h2>
-            <p>dummy text of the printing & typesetting</p>
-            <div class="banner__text-btn">
-                <img src="img/btn.png" alt="Sign up now">
+            <h2 class="text__header">Lorem Ipsum is simply</h2>
+            <p class="text__content">dummy text of the printing & typesetting</p>
+            <a class="btn" href="#">
+                <img src="img/btn.png" alt="Sign up now" class="btn__sign">
                 <p>Sign up now</p>
-            </div>
+            </a>
+
         </div>
-        <img src="img/arrow.png" alt="next slide">
+        <img src="img/arrow.png" alt="next slide" class="banner__arrow">
     </div>
 
     <div class="col">
@@ -42,24 +51,30 @@
             <div class="col__item-img1">
                 <img src="img/pen.png" alt="pen">
             </div>
-            <h3 class="col__item-heading">Contrary to popular</h3>
-            <p>Lorem Ipsum is not simply random text. It has roots in a piece.</p>
+            <div class="col__item-text">
+                <h3 class="col__item-heading">Contrary to popular</h3>
+                <p>Lorem Ipsum is not simply random text. It has roots in a piece.</p>
+            </div>
         </div>
 
         <div class="col__item">
             <div class="col__item-img2">
                 <img src="img/comp.png" alt="comp">
             </div>
-            <h3 class="col__item-heading">Contrary to popular</h3>
-            <p>Lorem Ipsum is not simply random text. It has roots in a piece.</p>
+            <div class="col__item-text">
+                <h3 class="col__item-heading">Contrary to popular</h3>
+                <p>Lorem Ipsum is not simply random text. It has roots in a piece.</p>
+            </div>
         </div>
 
         <div class="col__item">
             <div class="col__item-img3">
                 <img src="img/cart1.png" alt="Cart icon">
             </div>
-            <h3 class="col__item-heading">Contrary to popular</h3>
-            <p>Lorem Ipsum is not simply random text. It has roots in a piece.</p>
+            <div class="col__item-text">
+                <h3 class="col__item-heading">Contrary to popular</h3>
+                <p>Lorem Ipsum is not simply random text. It has roots in a piece.</p>
+            </div>
         </div>
 
     </div>
@@ -68,25 +83,25 @@
     <div class="container">
         <div class="container__other">
             <h2 class="container__other-heading">The Shopping cart</h2>
-            <img class="container__other-img" src="img/cart.png" alt="Cart">
+            <img src="img/cart.png" alt="Cart" class="container__other-img">
         </div>
         <div class="container__text">
-            <h3 class="container__text-heading">Some Bullet text here</h3>
-            <ul class="container__text-list">
-                <li>Lorem Ipsum is simply dummy text of the printing and typeseting</li>
-                <li>Lorem Ipsum is simply dummy text of the printing and typeseting</li>
-                <li>Lorem Ipsum is simply dummy text of the printing and typeseting</li>
-                <li>Lorem Ipsum is simply dummy text of the printing and typeseting</li>
-                <li>Lorem Ipsum is simply dummy text of the printing and typeseting</li>
-                <li>Lorem Ipsum is simply dummy text of the printing and typeseting</li>
-                <li>Lorem Ipsum is simply dummy text of the printing and typeseting</li>
+            <h3 class="text__heading">Some Bullet text here</h3>
+            <ul class="text__list">
+                <li class="list__item">Lorem Ipsum is simply dummy text of the printing and typeseting</li>
+                <li class="list__item">Lorem Ipsum is simply dummy text of the printing and typeseting</li>
+                <li class="list__item">Lorem Ipsum is simply dummy text of the printing and typeseting</li>
+                <li class="list__item">Lorem Ipsum is simply dummy text of the printing and typeseting</li>
+                <li class="list__item">Lorem Ipsum is simply dummy text of the printing and typeseting</li>
+                <li class="list__item">Lorem Ipsum is simply dummy text of the printing and typeseting</li>
+                <li class="list__item">Lorem Ipsum is simply dummy text of the printing and typeseting</li>
             </ul>
         </div>
     </div>
 </main>
 <footer>
     <hr>
-    <p>Copyright &#169; 2019-2020 Sidokur Oleksandr</p>
+    <p class="copy">Copyright &#169; 2019-2020 Sidokur Oleksandr</p>
 </footer>
 </body>
 </html>
