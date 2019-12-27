@@ -1,0 +1,154 @@
+@import "value";
+@import "mixin";
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+}
+.container{
+  margin:0 auto;
+  max-width:1440px;
+}
+.logo{
+  display:flex;
+  height:30px;
+  line-height:15px;
+  &__heading{
+    display:flex;
+    flex-direction:column;
+    color:white;
+    font-size:15px;
+  }
+  &__header{
+    font-weight:lighter;
+    font-size:15px;
+  }
+  &__subHeader{
+    font-weight:bold;
+  }
+}
+.primaryMenu{
+  .mobileMenu{
+    cursor:pointer;
+    display:none;
+    width:60px;
+    height:45px;
+    background-color: $colorActive;
+    border-radius:5px;
+    svg{
+      max-width:100%;
+      max-height:100%;
+      line{
+        stroke:white;
+        stroke-width:5;
+      }
+    }
+  }
+}
+.menu{
+  list-style:none;
+  &__item{
+    display:inline-block;
+    a{
+      padding:25px;
+      text-decoration:none;
+      color:white;
+      font-weight:600;
+      line-height:25px;
+      &:hover{
+        color:$colorActive;
+      }
+    }
+  }
+
+}
+
+
+@import "block1";
+.buttons{
+
+  &__btn{
+    display:inline-block;
+    padding: 20px 25px;
+    background-color:$colorActive;
+    color:white;
+    border-radius:5%;
+    box-shadow:0 5px 10px #555555;
+    margin:30px 25px 0 0;
+    font-weight: normal;
+    cursor: pointer;
+    &:hover{
+
+      background-color:white;
+      color:$colorActive;
+      font-weight:bold;
+
+    }
+  }
+}
+.heading{
+  @include fCenter();
+  flex-direction:column;
+  margin:50px 0;
+  &__header{
+    margin-bottom:5px;
+  color:$colorActive;
+  font-size:45px;
+  font-weight:600;
+  text-align:center;
+
+}
+  &__secondary{
+    font-weight:600;
+    font-size:25px;
+    color:$FadeColor;
+    text-align:center;
+  }
+  &__text{
+
+    color:$FadeColor;
+    font-size:18px;
+    line-height:35px;
+    max-width:580px;
+    text-align: center;
+
+  }
+}
+@import "block2";
+.greenBtn{
+  max-width:150px;
+  padding:20px 25px;
+  color:white;
+  background-color: #1de9b6;
+  font-size:15px;
+  border-radius:5px;
+  box-shadow:0 5px 10px lightgray;
+  cursor:pointer;
+  &:hover{
+    color:$colorActive;
+    background-color:white;
+    font-weight:bold;
+  }
+}
+img{
+  max-width:100%;
+  height:auto;
+}
+@import "services";
+@import "comments";
+@import "team";
+.social{
+  color: #808080;
+  line-height:25px;
+  i{
+    margin:12.5px;
+  }
+}
+@import "contact";
+@import "footer";
+@media screen and (max-width:810px){
+
+}

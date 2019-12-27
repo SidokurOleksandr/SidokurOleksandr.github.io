@@ -1,0 +1,9 @@
+@mixin fCenter () {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+@mixin normText(){
+  font-size:15px;
+  line-height:25px;
+}
