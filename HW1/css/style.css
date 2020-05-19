@@ -1,0 +1,42 @@
+html{
+background-color:lightblue;
+}
+body{
+	background-color:white;
+	width:100%;
+	max-width:1200px;
+	margin:0 auto;
+}
+span{
+	font-weight:bold;
+	
+}
+#unique{
+	background-color:#a52a2a;
+	color:yellow;
+	
+}
+h2{
+	background-color:orange;
+}
+h3{
+	background-color:yellow;
+}
+header{
+	text-align:center;
+	}
+div{
+	background-color:silver;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+.sub{
+	background-color:gray;
+	padding-left:10px;
+}
+.edu{
+	display:flex;
+}
+footer{text-align:center;}
