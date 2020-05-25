@@ -1,0 +1,145 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:sans-serif;
+}
+body{
+
+    background-color: #fcfcfc;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+.container{
+
+    max-width:1260px;
+    margin:0 auto;
+    box-sizing: border-box;
+
+}
+.menu li{
+
+    font-size:15px;
+    text-transform:uppercase;
+    font-family:sans-serif;
+    color: #949494;
+    display:inline-block;
+    padding:25px 30px 25px 0;
+}
+img{
+    max-width:100%;
+}
+h2{
+    text-transform:uppercase;
+    color: #5b5b5b;
+    font-size:34px;
+    font-weight:normal;
+    text-align:center;
+    padding:20px 0 25px;
+}
+.best__content{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+
+}
+.recipe{
+
+    display:flex;
+    margin:10px 0;
+}
+
+.recipe__view{
+    position:relative;
+    display:flex;
+    align-items:flex-end;
+
+}
+.author{
+    position: absolute;
+    display:flex;
+    align-items:center;
+    bottom:15px;
+    left:15px;
+    color: #bcbcbc;
+    font-size:18px;
+}
+.recipe__info{
+display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    max-width:315px;
+    border: 2px solid lightgray;
+    border-left:none;
+}
+.recipe__header{
+    line-height:27px;
+    font-size:24px;
+    font-weight:normal;
+    color: #3d3d3d;
+    text-align:center;
+}
+.tags{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    color: #b5904e;
+    font-size:14px;
+}
+.tags__item{
+    display:flex;
+    align-items:center;
+    border: solid lightgray 1px;
+    padding:5px;
+    border-radius:15px;
+}
+.recipe__content{
+    color: #5b5b5b;
+    font-size:16px;
+    line-height:19px;
+    padding:0 10px 0 12px;
+}
+.recipe__social{
+    display:flex;
+    justify-content: space-between;
+
+    color: #bcbcbc;
+    border-top:2px solid lightgray;
+    padding:12px 25px 10px 25px;
+}
+.media i{
+    padding:0 10px;
+}
+.likes{
+    display:flex;
+    align-items:center;
+}
+.hot{
+    margin-top:60px;
+
+}
+.hot__img{
+    margin:30px 0 50px 0;
+    display:flex;
+    justify-content:space-between;
+}
+.category{
+    position:relative;
+ display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.category__name{
+    position:absolute;
+    text-transform: uppercase;
+    bottom:50px;
+    color: #f0f0f0;
+    font-size:34px;
+
+}
+footer{
+    background-color: #252627;
+
+}
+
