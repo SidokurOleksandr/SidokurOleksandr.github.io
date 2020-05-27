@@ -9,295 +9,183 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
         <header>
-            <ul class="menu">
-                <li><a href="#">Подбор рецептов</a></li>
-                <li><a href="#">Рецепты</a></li>
-                <li><a href="#">Горячие рецепты</a></li>
-            </ul>
+            <div class="container">
+                <ul class="menu">
+                    <li><a href="#">Подбор рецептов</a></li>
+                    <li><a href="#">Рецепты</a></li>
+                    <li><a href="#">Горячие рецепты</a></li>
+                </ul>
+            </div>
         </header>
         <main>
-            <div class="best">
-                <div class="divide">
-                    <img src="img/1.png" alt="">
-                </div>
-                <h2>7 Лучших рецептов недели</h2>
-                <div class="best__content">
-                    <div class="recipe">
-                        <div class="recipe__view">
-                            <div class="author">
-                                <img src="img/icon1.png" alt="Daria Fedorenko">
-                                Daria Fedorenko
-                            </div>
-                            <img src="img/2.png" alt="Duck recipe">
-                        </div>
-                        <div class="recipe__info">
-                            <h3 class="recipe__header">Утиные ножки с овощами и грудинкой фасолью</h3>
-                            <div class="tags">
-                                <div class="tags__item">
-                                    <i class="material-icons">schedule</i>
-                                    <span>135 мин</span>
-                                </div>
-                                <div class="tags__item">
-                                    <i class="icofont-chef"></i>
-                                    <span>Сложно</span>
-                                </div>
-                                <div class="tags__item">
-                                    <i class="material-icons">directions_run</i>
-                                    <span>125 ккал</span>
-                                </div>
-                            </div>
-                            <p class="recipe__content">говядина, масло топлёное, лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель, чеснок, бульон мясной,
-                                соль, перец чёрный, зелень петрушки...</p>
-                            <div class="recipe__social">
-                                <div class="likes">
-                                    <i class="material-icons">favorite_border</i>
-                                    16
-                                </div>
-                                <div class="media">
-                                    <i class="icofont-vk icofont-2x"></i>
-                                    <i class="icofont-facebook icofont-2x"></i>
-                                    <i class="icofont-odnoklassniki icofont-2x"></i>
-                                </div>
-                            </div>
-                        </div>
-
+            <div class="container">
+                <div class="hero">
+                    <div class="divide">
+                        <img src="img/1.png" alt="">
                     </div>
-                    <div class="recipe">
-                        <div class="recipe__view">
-                            <div class="author">
-                                <img src="img/icon1.png" alt="Daria Fedorenko">
-                                Hristin Fedorenko
+                    <h2>Подбор рецептов</h2>
+                    <div class="selection">
+                        <div class="selection__item">
+                            <img src="img/9.png" alt="ingredients">
+                            <div class="selection__caption">
+                                <p>Блюдо дня</p>
+                                <h3>Куриные ножки на гриле</h3>
+                                <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="145px" height="29px">
+                                    <image  x="0px" y="0px" width="145px" height="29px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJEAAAAdCAQAAAAAo0YLAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfkBRsDLwFppBp4AAAD7UlEQVRo3t3YXW9UVRjF8d90Oi2UUiilhZZOp1DASJgKBGiiSCQQIQE+gFpMBb3xxsQPYPwEeqMXauIbGAVEwShBEVATMCYgYqEKSqHlXVpKaQulzPR4ATbTpuWOcwxr7s5eO7PmP2fv/Tw7FohExZZYrMUhXfdxFUp7ykIzFGjzo71ahR44PxJAcbUaLJU2yR7XxnAVWGGdhWarQNpcRbY5H3rY18MHFJOyzDwJZeYo1TkqpITVnjNHnsmKUaBSmQ5n3X7YEZWYZ6k6XHFNhQXKdeuQHeYqlLbJNKfdVmnyvaflbvpNR7iBw19oldZ6xEVn5cvXI221Su875E6OK2mdSif1eVTp0NOEKiVhBw4fUUahlAEnjTdBt59l1HvegMNDkOJqLdAlT4MFinNmZw0+/IjO2afaTJ3+EFfhst36NLjpitZ7ngJTFOuzSL3xOXMHdbkZduC80BEN+MUXeq1Q5ZrrEvr9LeNx1UOehBIlZksZN2xum6M6H35E3PKTb+RZo0yzdkmL1JiscMiRlVVqjqliw2YesT/szToaRHT7yi5J6yWNs8RKUwzm4Oj3j34FI7aBI7b7fcTJF4KiKR25ZIsK62zSq94Ud+uewns1T9agxDD/dae8a2/YNVGUiGj1tjxPmytPjwmmW+VXzaDOk0p1uK1QXFang3Y7cN9m5YEpFlGPdldpKyTFTTJfWrc3fajTLE3WueEHncpN0OOMY45H8QZFj4h8xYqUmW+V5S76Uqtl1uryjq9dV6ZIj+vhN6+5iKaIh/h9fW6N+nPzVWnUpEiPUq3esnOMCiiuaEQp8GCVzfeGlIFQ/qW4QZvt1DvKWEa7A1Zbjn7H7B2zRCz3jDVioVTZMQXa8n1sYkgHaUzg1Jg7So1lKkBCncUO6B/Vd8N+f4mFtPTieqLei/7TLE2elRLIGqfPQe/ZHX6zMZqiO/RzNdMGL6g26Ig2sz1mpSIZe/VFHe3/gSil0QbVAkd95LB6mzRY5o6YPW5FHS96RLUaNaoTOG6zHS47JaFI2gpZg76LGlIUF7O5StmgyRy0+MB2l9DvnAG1ppql3FXtMpFmDKL8JIPXgjNBEARBc/BqMCNnZFrwSvBnEASZYF+wPkhEmTLKt6jKRhvVosVmn7mQM9anXUZShaQK15yOrr6ODlGNRi+pxQmf2Kp9xHivs7KSKtQo1+nCsLvthx5RTMoGL5op0GKLrc6M4urRLqvaNClVulyMppGNBlHcE142T+CET20burMeqRvOG1RpullodiWKsFEd+oGMwHm77HD6Pr42nxtvnGrFCqKJGg2irFZ7dGv1/ahLLFdtvjVRnYOuRpLVv8WWuemOHuQiAAAAAElFTkSuQmCC" />
+                                </svg>
                             </div>
-                            <img src="img/3.png" alt="Duck recipe">
-                        </div>
-                        <div class="recipe__info">
-                            <h3 class="recipe__header">Салат из свеклы с козьим сыром и медовой заправкой</h3>
-                            <div class="tags">
-                                <div class="tags__item">
-                                    <i class="material-icons">schedule</i>
-                                    <span>35 мин</span>
-                                </div>
-                                <div class="tags__item">
-                                    <i class="icofont-chef"></i>
-                                    <span>Сложно</span>
-                                </div>
-                                <div class="tags__item">
-                                    <i class="material-icons">directions_run</i>
-                                    <span>125 ккал</span>
-                                </div>
-                            </div>
-                            <p class="recipe__content">говядина, масло топлёное, лук репчатый,
-                                морковь, редька, перец сладкий, помидоры, томат-пюре, картофель</p>
-                            <div class="recipe__social">
-                                <div class="likes">
-                                    <i class="material-icons">favorite_border</i>
-                                    16
-                                </div>
-                                <div class="media">
-                                    <i class="icofont-vk icofont-2x"></i>
-                                    <i class="icofont-facebook icofont-2x"></i>
-                                    <i class="icofont-odnoklassniki icofont-2x"></i>
-                                </div>
-                            </div>
-                        </div>
 
-                    </div>
-                    <div class="recipe">
-                        <div class="recipe__view">
-                            <div class="author">
-                                <img src="img/icon1.png" alt="Daria Fedorenko">
-                                Daria Fedorenko
-                            </div>
-                            <img src="img/2.png" alt="Duck recipe">
                         </div>
-                        <div class="recipe__info">
-                            <h3 class="recipe__header">Утиные ножки с овощами и грудинкой фасолью</h3>
-                            <div class="tags">
-                                <div class="tags__item">
-                                    <i class="material-icons">schedule</i>
-                                    <span>135 мин</span>
-                                </div>
-                                <div class="tags__item">
-                                    <i class="icofont-chef"></i>
-                                    <span>Сложно</span>
-                                </div>
-                                <div class="tags__item">
-                                    <i class="material-icons">directions_run</i>
-                                    <span>125 ккал</span>
-                                </div>
+                        <div class="selection__item">
+                            <img src="img/8.png" alt="ingredients">
+                            <div class="selection__caption">
+                                <p>Лучшие рецепты недели</p>
+                                <h3>7 Лучших рецептов недели</h3>
+                                <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="145px" height="29px">
+                                    <image  x="0px" y="0px" width="145px" height="29px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJEAAAAdCAQAAAAAo0YLAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfkBRsDLwFppBp4AAAD7UlEQVRo3t3YXW9UVRjF8d90Oi2UUiilhZZOp1DASJgKBGiiSCQQIQE+gFpMBb3xxsQPYPwEeqMXauIbGAVEwShBEVATMCYgYqEKSqHlXVpKaQulzPR4ATbTpuWOcwxr7s5eO7PmP2fv/Tw7FohExZZYrMUhXfdxFUp7ykIzFGjzo71ahR44PxJAcbUaLJU2yR7XxnAVWGGdhWarQNpcRbY5H3rY18MHFJOyzDwJZeYo1TkqpITVnjNHnsmKUaBSmQ5n3X7YEZWYZ6k6XHFNhQXKdeuQHeYqlLbJNKfdVmnyvaflbvpNR7iBw19oldZ6xEVn5cvXI221Su875E6OK2mdSif1eVTp0NOEKiVhBw4fUUahlAEnjTdBt59l1HvegMNDkOJqLdAlT4MFinNmZw0+/IjO2afaTJ3+EFfhst36NLjpitZ7ngJTFOuzSL3xOXMHdbkZduC80BEN+MUXeq1Q5ZrrEvr9LeNx1UOehBIlZksZN2xum6M6H35E3PKTb+RZo0yzdkmL1JiscMiRlVVqjqliw2YesT/szToaRHT7yi5J6yWNs8RKUwzm4Oj3j34FI7aBI7b7fcTJF4KiKR25ZIsK62zSq94Ud+uewns1T9agxDD/dae8a2/YNVGUiGj1tjxPmytPjwmmW+VXzaDOk0p1uK1QXFang3Y7cN9m5YEpFlGPdldpKyTFTTJfWrc3fajTLE3WueEHncpN0OOMY45H8QZFj4h8xYqUmW+V5S76Uqtl1uryjq9dV6ZIj+vhN6+5iKaIh/h9fW6N+nPzVWnUpEiPUq3esnOMCiiuaEQp8GCVzfeGlIFQ/qW4QZvt1DvKWEa7A1Zbjn7H7B2zRCz3jDVioVTZMQXa8n1sYkgHaUzg1Jg7So1lKkBCncUO6B/Vd8N+f4mFtPTieqLei/7TLE2elRLIGqfPQe/ZHX6zMZqiO/RzNdMGL6g26Ig2sz1mpSIZe/VFHe3/gSil0QbVAkd95LB6mzRY5o6YPW5FHS96RLUaNaoTOG6zHS47JaFI2gpZg76LGlIUF7O5StmgyRy0+MB2l9DvnAG1ppql3FXtMpFmDKL8JIPXgjNBEARBc/BqMCNnZFrwSvBnEASZYF+wPkhEmTLKt6jKRhvVosVmn7mQM9anXUZShaQK15yOrr6ODlGNRi+pxQmf2Kp9xHivs7KSKtQo1+nCsLvthx5RTMoGL5op0GKLrc6M4urRLqvaNClVulyMppGNBlHcE142T+CET20burMeqRvOG1RpullodiWKsFEd+oGMwHm77HD6Pr42nxtvnGrFCqKJGg2irFZ7dGv1/ahLLFdtvjVRnYOuRpLVv8WWuemOHuQiAAAAAElFTkSuQmCC" />
+                                </svg>
                             </div>
-                            <p class="recipe__content">говядина, масло топлёное, лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель, чеснок, бульон мясной,
-                                соль, перец чёрный, зелень петрушки...</p>
-                            <div class="recipe__social">
-                                <div class="likes">
-                                    <i class="material-icons">favorite_border</i>
-                                    16
-                                </div>
-                                <div class="media">
-                                    <i class="icofont-vk icofont-2x"></i>
-                                    <i class="icofont-facebook icofont-2x"></i>
-                                    <i class="icofont-odnoklassniki icofont-2x"></i>
-                                </div>
-                            </div>
-                        </div>
 
-                    </div>
-                    <div class="recipe">
-                        <div class="recipe__view">
-                            <div class="author">
-                                <img src="img/icon1.png" alt="Daria Fedorenko">
-                                Hristin Fedorenko
-                            </div>
-                            <img src="img/3.png" alt="Duck recipe">
                         </div>
-                        <div class="recipe__info">
-                            <h3 class="recipe__header">Салат из свеклы с козьим сыром и медовой заправкой</h3>
-                            <div class="tags">
-                                <div class="tags__item">
-                                    <i class="material-icons">schedule</i>
-                                    <span>35 мин</span>
-                                </div>
-                                <div class="tags__item">
-                                    <i class="icofont-chef"></i>
-                                    <span>Сложно</span>
-                                </div>
-                                <div class="tags__item">
-                                    <i class="material-icons">directions_run</i>
-                                    <span>125 ккал</span>
-                                </div>
-                            </div>
-                            <p class="recipe__content">говядина, масло топлёное, лук репчатый,
-                                морковь, редька, перец сладкий, помидоры, томат-пюре, картофель</p>
-                            <div class="recipe__social">
-                                <div class="likes">
-                                    <i class="material-icons">favorite_border</i>
-                                    16
-                                </div>
-                                <div class="media">
-                                    <i class="icofont-vk icofont-2x"></i>
-                                    <i class="icofont-facebook icofont-2x"></i>
-                                    <i class="icofont-odnoklassniki icofont-2x"></i>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="recipe">
-                        <div class="recipe__view">
-                            <div class="author">
-                                <img src="img/icon1.png" alt="Daria Fedorenko">
-                                Daria Fedorenko
-                            </div>
-                            <img src="img/2.png" alt="Duck recipe">
-                        </div>
-                        <div class="recipe__info">
-                            <h3 class="recipe__header">Утиные ножки с овощами и грудинкой фасолью</h3>
-                            <div class="tags">
-                                <div class="tags__item">
-                                    <i class="material-icons">schedule</i>
-                                    <span>135 мин</span>
-                                </div>
-                                <div class="tags__item">
-                                    <i class="icofont-chef"></i>
-                                    <span>Сложно</span>
-                                </div>
-                                <div class="tags__item">
-                                    <i class="material-icons">directions_run</i>
-                                    <span>125 ккал</span>
-                                </div>
-                            </div>
-                            <p class="recipe__content">говядина, масло топлёное, лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель, чеснок, бульон мясной,
-                                соль, перец чёрный, зелень петрушки...</p>
-                            <div class="recipe__social">
-                                <div class="likes">
-                                    <i class="material-icons">favorite_border</i>
-                                    16
-                                </div>
-                                <div class="media">
-                                    <i class="icofont-vk icofont-2x"></i>
-                                    <i class="icofont-facebook icofont-2x"></i>
-                                    <i class="icofont-odnoklassniki icofont-2x"></i>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="recipe">
-                        <div class="recipe__view">
-                            <div class="author">
-                                <img src="img/icon1.png" alt="Daria Fedorenko">
-                                Hristin Fedorenko
-                            </div>
-                            <img src="img/3.png" alt="Duck recipe">
-                        </div>
-                        <div class="recipe__info">
-                            <h3 class="recipe__header">Салат из свеклы с козьим сыром и медовой заправкой</h3>
-                            <div class="tags">
-                                <div class="tags__item">
-                                    <i class="material-icons">schedule</i>
-                                    <span>35 мин</span>
-                                </div>
-                                <div class="tags__item">
-                                    <i class="icofont-chef"></i>
-                                    <span>Сложно</span>
-                                </div>
-                                <div class="tags__item">
-                                    <i class="material-icons">directions_run</i>
-                                    <span>125 ккал</span>
-                                </div>
-                            </div>
-                            <p class="recipe__content">говядина, масло топлёное, лук репчатый,
-                                морковь, редька, перец сладкий, помидоры, томат-пюре, картофель</p>
-                            <div class="recipe__social">
-                                <div class="likes">
-                                    <i class="material-icons">favorite_border</i>
-                                    16
-                                </div>
-                                <div class="media">
-                                    <i class="icofont-vk icofont-2x"></i>
-                                    <i class="icofont-facebook icofont-2x"></i>
-                                    <i class="icofont-odnoklassniki icofont-2x"></i>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
-            </div>
-            <div class="hot">
-                <div class="divide">
-                    <img src="img/1.png" alt="">
+                <div class="best">
+                    <div class="divide">
+                        <img src="img/1.png" alt="">
+                    </div>
+                    <h2>рецепты</h2>
+                    <div class="switch">
+                        <ul class="switch-items">
+                            <li><a href="#">Новые рецепты</a></li>
+                            <li><a href="#">Рекомендуем</a></li>
+                            <li><a href="#">Популярные</a></li>
+                        </ul>
+                    </div>
+                    <div class="best__content">
+                        <div class="recipe">
+                            <div class="recipe__view">
+                                <div class="author">
+                                    <img src="img/icon1.png" alt="Daria Fedorenko">
+                                    Daria Fedorenko
+                                </div>
+                                <img src="img/2.png" alt="Duck recipe">
+                            </div>
+                            <div class="recipe__info">
+                                <h3 class="recipe__header">Утиные ножки с овощами и грудинкой фасолью</h3>
+                                <div class="tags">
+                                    <div class="tags__item">
+                                        <i class="material-icons">schedule</i>
+                                        <span>135 мин</span>
+                                    </div>
+                                    <div class="tags__item">
+                                        <i class="icofont-chef"></i>
+                                        <span>Сложно</span>
+                                    </div>
+                                    <div class="tags__item">
+                                        <i class="material-icons">directions_run</i>
+                                        <span>125 ккал</span>
+                                    </div>
+                                </div>
+                                <p class="recipe__content">говядина, масло топлёное, лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель, чеснок, бульон мясной,
+                                    соль, перец чёрный, зелень петрушки...</p>
+                                <div class="recipe__social">
+                                    <div class="likes">
+                                        <i class="material-icons">favorite_border</i>
+                                        16
+                                    </div>
+                                    <div class="media">
+                                        <i class="icofont-vk icofont-2x"></i>
+                                        <i class="icofont-facebook icofont-2x"></i>
+                                        <i class="icofont-odnoklassniki icofont-2x"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="recipe">
+                            <div class="recipe__view">
+                                <div class="author">
+                                    <img src="img/icon1.png" alt="Daria Fedorenko">
+                                    Hristin Fedorenko
+                                </div>
+                                <img src="img/3.png" alt="Duck recipe">
+                            </div>
+                            <div class="recipe__info">
+                                <h3 class="recipe__header">Салат из свеклы с козьим сыром и медовой заправкой</h3>
+                                <div class="tags">
+                                    <div class="tags__item">
+                                        <i class="material-icons">schedule</i>
+                                        <span>35 мин</span>
+                                    </div>
+                                    <div class="tags__item">
+                                        <i class="icofont-chef"></i>
+                                        <span>Сложно</span>
+                                    </div>
+                                    <div class="tags__item">
+                                        <i class="material-icons">directions_run</i>
+                                        <span>125 ккал</span>
+                                    </div>
+                                </div>
+                                <p class="recipe__content">говядина, масло топлёное, лук репчатый,
+                                    морковь, редька, перец сладкий, помидоры, томат-пюре, картофель</p>
+                                <div class="recipe__social">
+                                    <div class="likes">
+                                        <i class="material-icons">favorite_border</i>
+                                        16
+                                    </div>
+                                    <div class="media">
+                                        <i class="icofont-vk icofont-2x"></i>
+                                        <i class="icofont-facebook icofont-2x"></i>
+                                        <i class="icofont-odnoklassniki icofont-2x"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
-                <h2>#Горячаяподборка</h2>
-                <div class="hot__img">
-                    <div class="category">
-                        <img src="img/4.png" alt="morning recipes">
-                        <div class="category__name">Утренние рецепты</div>
+                <div class="hot">
+                    <div class="divide">
+                        <img src="img/1.png" alt="">
                     </div>
-                    <div class="category">
-                        <img src="img/5.png" alt="Maslenitsa">
-                        <div class="category__name">Масленица</div>
-                    </div>
-                    <div class="category">
-                        <img src="img/6.png" alt="Recipes for children">
-                        <div class="category__name">Рецепты для детей</div>
-                    </div>
-                    <div class="category">
-                        <img src="img/7.png" alt="Healthy recipes">
-                        <div class="category__name">Здоровое питание</div>
+                    <h2>#Горячаяподборка</h2>
+                    <div class="hot__img">
+                        <div class="category">
+                            <img src="img/4.png" alt="morning recipes">
+                            <h3 class="category__name">Утренние рецепты</h3>
+                        </div>
+                        <div class="category">
+                            <img src="img/5.png" alt="Maslenitsa">
+                            <h3 class="category__name">Масленица</h3>
+                        </div>
+                        <div class="category">
+                            <img src="img/6.png" alt="Recipes for children">
+                            <h3 class="category__name">Рецепты для детей</h3>
+                        </div>
+                        <div class="category">
+                            <img src="img/7.png" alt="Healthy recipes">
+                            <h3 class="category__name">Здоровое питание</h3>
+                        </div>
                     </div>
                 </div>
             </div>
         </main>
         <footer>
-            <ul class="menu">
-                <li><a href="#">Подбор рецептов</a></li>
-                <li><a href="#">Рецепты</a></li>
-                <li><a href="#">Горячие рецепты</a></li>
-            </ul>
+            <div class="container">
+                <ul class="menu">
+                    <li><a href="#">Подбор рецептов</a></li>
+                    <li><a href="#">Рецепты</a></li>
+                    <li><a href="#">Горячие рецепты</a></li>
+                </ul>
+            </div>
         </footer>
-    </div>
+
     </body>
 </html>
