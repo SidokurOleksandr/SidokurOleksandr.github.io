@@ -21,12 +21,12 @@ a{
     font-size:15px;
     text-transform:uppercase;
     color: #949494;
-
+    padding:10px 0;
 }
 
 .menu li{
     display:inline-block;
-    padding:25px 0;
+    padding:15px 0;
     margin-right:30px;
 }
 .menu li:last-child{
@@ -34,21 +34,25 @@ a{
 }
 header .menu li:hover{
     background-color: #252627;
+    color:#fcfcfc;
 }
 footer .menu li:hover{
     background-color: #fcfcfc;
+}
+.divide{
+    margin-bottom: 20px;
 }
 img{
     display:block;
     max-width:100%;
 }
-h2{
+h1{
     text-transform:uppercase;
     color: #5b5b5b;
     font-size:34px;
     font-weight:normal;
     text-align:center;
-    padding:20px 0 25px;
+    margin-bottom: 25px;
 }
 .best__content{
     display:flex;
@@ -133,7 +137,7 @@ h2{
     margin-top:60px;
 
 }
-.hot__img{
+.hot__categories{
     margin:30px 0 50px 0;
     display:flex;
     justify-content:space-between;

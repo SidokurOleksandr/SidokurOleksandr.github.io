@@ -11,31 +11,33 @@ a{
     color:inherit;
 }
 .container{
-
     max-width:1260px;
     margin:0 auto;
     box-sizing: border-box;
-
 }
 .menu{
     font-size:15px;
     text-transform:uppercase;
     color: #949494;
-
-}
-.divide{
-    margin:20px 0;
+    padding:10px 0;
 }
 .menu li{
     display:inline-block;
-    padding:25px 0;
     margin-right:30px;
+}
+.menu li a{
+    display:block;
+    padding:15px 0;
 }
 .menu li:last-child{
     margin-right:0;
 }
+.divide{
+    margin:20px 0;
+}
 header .menu li:hover{
     background-color: #252627;
+    color:#fcfcfc;
 }
 footer .menu li:hover{
     background-color: #fcfcfc;
@@ -185,7 +187,7 @@ h2{
     margin-top:60px;
 
 }
-.hot__img{
+.hot__category{
     margin:30px 0 50px 0;
     display:flex;
     justify-content:space-between;
