@@ -5,10 +5,11 @@
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<header class="header">
+<header class="header animated wow slideInDown">
     <div class="header__slider">
         <img src="img/1.png" alt="designer">
     </div>
@@ -59,7 +60,7 @@
             </div>
         </div>
     </div>
-    <div class="aboutMe">
+    <div class="aboutMe animated wow slideInLeft">
         <div class="container">
             <div class="aboutMe__img">
                 <img src="img/2.png" alt="designer">
@@ -151,7 +152,7 @@
             </div>
         </div>
     </div>
-    <div class="resume">
+    <div class="resume animated wow slideInUp">
         <div class="container">
             <h2 class="resume__title">resume</h2>
             <p class="resume__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque beatae blanditiis cupiditate dignissimos distinctio dolor, earum enim excepturi fuga fugit hic ipsum itaque libero non perferendis quod reiciendis tempore voluptatem?</p>
@@ -159,6 +160,9 @@
         </div>
     </div>
 </main>
-
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 </body>
 </html>
