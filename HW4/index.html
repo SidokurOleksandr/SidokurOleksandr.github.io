@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>duhoot</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/54f1fc9e1e.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="logotype">
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li class="menu__item"><a href="#">Reality</a></li>
+                    <li class="menu__item"><a href="#">Living</a></li>
+                    <li class="menu__item"><a href="#">Education</a></li>
+                    <li class="menu__item"><a href="#">Entertainment</a></li>
+                    <li class="menu__item"><a href="#">Mobility</a></li>
+                </ul>
+                <div class="search">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="login">
+                    <i class="fas fa-user"></i>
+                    <span class="login__caption">login</span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="hero__content">
+                <h2 class="hero__header">What are you looking for?</h2>
+                <form class="hero__form">
+                    <label class="choice">
+                        <select class="choice__select" name="destination" id="destination">
+                            <option>Dubai</option>
+                            <option>Paris</option>
+                            <option>Milan</option>
+                        </select>
+                    </label>
+                    <label class="choice">
+                        <select class="choice__select" name="goal" id="goal">
+                            <option>Education</option>
+                            <option>Vacation</option>
+                            <option>Business</option>
+                        </select>
+                    </label>
+                    <label class="choice">
+                        <input class="choice__select" type="text" id="userInput" placeholder="Keyword, name, date, ...">
+                    </label>
+                    <input type="submit" class="mainButton" value="SEARCH">
+                </form>
+            </div>
+        </div>
+        <div class="filters">
+            <div class="container">
+                <ul class="menu">
+                    <li class="menu__item"><a href="#">Recommended</a></li>
+                    <li class="menu__item"><a href="#">Latest</a></li>
+                    <li class="menu__item"><a href="#">Highlights</a></li>
+                </ul>
+                <div class="filters__buttons">
+                    <div class="subButton"><span>Dubai</span><i class="fas fa-angle-down"></i></div>
+                    <div class="subButton subButton_green"><span>Hide map</span><i class="fas fa-map-marker-alt"></i></div>
+                </div>
+                <div class="filters__category">
+                    <span>Filter:</span>
+                    <div class="categoryButton categoryButton_green"><i class="fas fa-home"></i></div>
+                    <div class="categoryButton"><img src="img/icon1.png" alt=""></div>
+                    <div class="categoryButton"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="categoryButton categoryButton_orange"><i class="fas fa-music"></i></div>
+                    <div class="categoryButton categoryButton_purple"><i class="fas fa-bus-alt"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="posts">
+            <div class="container">
+                <div class="posts__item posts__item_green">
+                    <div class="posts__img">
+                        <div class="posts__modal">
+                            <div class="subButton"><i class="fas fa-search"></i><span>show more</span></div>
+                            <div class="modIcons">
+                                <p class="modIcons__rating">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </p>
+                                <i class="far fa-comments"></i>
+                            </div>
+
+                        </div>
+                        <img src="img/post1.png" alt="House in Dubai">
+                        <div class="posts__price">$2,990</div>
+                        <div class="categoryButton categoryButton_green"><i class="fas fa-home"></i></div>
+                    </div>
+
+                    <div class="posts__content">
+                        <p class="posts__message">2 bedrooms house for rent in Dubai</p>
+                        <p class="posts__company">Vision agency</p>
+                        <p class="posts__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(365)</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="posts__item posts__item_orange">
+                    <div class="posts__img">
+                        <div class="posts__modal">
+                            <div class="subButton"><i class="fas fa-search"></i><span>show more</span></div>
+                            <div class="modIcons">
+                                <p class="modIcons__rating">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </p>
+                                <i class="far fa-comments"></i>
+                            </div>
+
+                        </div>
+                        <img src="img/post2.png" alt="party">
+                        <div class="categoryButton categoryButton_orange"><i class="fas fa-music"></i></div>
+                    </div>
+
+                    <div class="posts__content">
+                        <p class="posts__message">Beach party festival 2014</p>
+                        <p class="posts__company">Long Beach</p>
+                        <p class="posts__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(1165)</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="posts__item posts__item_purple">
+                    <div class="posts__img">
+                        <div class="posts__modal">
+                            <div class="subButton"><i class="fas fa-search"></i><span>show more</span></div>
+                            <div class="modIcons">
+                                <p class="modIcons__rating">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </p>
+                                <i class="far fa-comments"></i>
+                            </div>
+
+                        </div>
+                        <img src="img/post3.png" alt="travelling">
+                        <div class="categoryButton categoryButton_purple"><i class="fas fa-bus-alt"></i></div>
+                    </div>
+
+                    <div class="posts__content">
+                        <p class="posts__message">Aliquam quis pulvinar purus</p>
+                        <p class="posts__company">bus trans</p>
+                        <p class="posts__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(365)</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="posts__item posts__item_green">
+                    <div class="posts__img">
+                        <div class="posts__modal">
+                            <div class="subButton"><i class="fas fa-search"></i><span>show more</span></div>
+                            <div class="modIcons">
+                                <p class="modIcons__rating">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </p>
+                                <i class="far fa-comments"></i>
+                            </div>
+
+                        </div>
+                        <img src="img/post1.png" alt="House in Dubai">
+                        <div class="posts__price">$2,990</div>
+                        <div class="categoryButton categoryButton_green"><i class="fas fa-home"></i></div>
+                    </div>
+
+                    <div class="posts__content">
+                        <p class="posts__message">4 bedrooms house for rent in Dubai</p>
+                        <p class="posts__company">Reality agency</p>
+                        <p class="posts__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(165)</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="comment comment_green">
+                    <div class="comment__img">
+                        <img src="img/post4.png" alt="Vision Agency">
+
+                        <div class="comment__caption">
+
+                            <h3 class="comment__company">Vision Agency</h3>
+                            <p class="comment__rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(365)</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="comment__content">
+                        <div class="comment__picture">
+                            <div class="categoryButton categoryButton_green"><i class="fas fa-home"></i></div>
+                            <div class="line">
+
+                            </div>
+                            <div class="comment__user">
+                                <img src="img/user1.png" alt="Lucy">
+                            </div>
+                        </div>
+                        <div class="message">
+                            <p class="message__rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </p>
+                            <p class="message__author">Lucy-P</p>
+                            <p class="message__text">“Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim faucibus,
+                                quis posuere orci ornare. Duis mattis sagittis fringilla.”<a href="#">...read more</a> </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="comment comment_orange">
+                    <div class="comment__img">
+                        <img src="img/post5.png" alt="Vision Agency">
+
+                        <div class="comment__caption">
+
+                            <h3 class="comment__company">Skybox club</h3>
+                            <p class="comment__rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(1365)</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="comment__content">
+                        <div class="comment__picture">
+                            <div class="categoryButton categoryButton_orange"><i class="fas fa-home"></i></div>
+                            <div class="line">
+
+                            </div>
+                            <div class="comment__user">
+                                <img src="img/user2.png" alt="Lucy">
+                            </div>
+                        </div>
+                        <div class="message">
+                            <p class="message__rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </p>
+                            <p class="message__author">Peter135</p>
+                            <p class="message__text">“Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim faucibus,
+                                quis posuere orci ornare. Duis mattis sagittis fringilla.”<a href="#">...read more</a> </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="posts__item posts__item_green">
+                    <div class="posts__img">
+                        <div class="posts__modal">
+                            <div class="subButton"><i class="fas fa-search"></i><span>show more</span></div>
+                            <div class="modIcons">
+                                <p class="modIcons__rating">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </p>
+                                <i class="far fa-comments"></i>
+                            </div>
+
+                        </div>
+                        <img src="img/post1.png" alt="House in Dubai">
+                        <div class="posts__price">$2,990</div>
+                        <div class="categoryButton categoryButton_green"><i class="fas fa-home"></i></div>
+                    </div>
+
+                    <div class="posts__content">
+                        <p class="posts__message">2 bedrooms house for rent in Dubai</p>
+                        <p class="posts__company">Vision agency</p>
+                        <p class="posts__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(365)</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="posts__item posts__item_orange">
+                    <div class="posts__img">
+                        <div class="posts__modal">
+                            <div class="subButton"><i class="fas fa-search"></i><span>show more</span></div>
+                            <div class="modIcons">
+                                <p class="modIcons__rating">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </p>
+                                <i class="far fa-comments"></i>
+                            </div>
+
+                        </div>
+                        <img src="img/post2.png" alt="party">
+                        <div class="categoryButton categoryButton_orange"><i class="fas fa-music"></i></div>
+                    </div>
+
+                    <div class="posts__content">
+                        <p class="posts__message">Beach party festival 2014</p>
+                        <p class="posts__company">Long Beach</p>
+                        <p class="posts__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(1165)</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="posts__item posts__item_purple">
+                    <div class="posts__img">
+                        <div class="posts__modal">
+                            <div class="subButton"><i class="fas fa-search"></i><span>show more</span></div>
+                            <div class="modIcons">
+                                <p class="modIcons__rating">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </p>
+                                <i class="far fa-comments"></i>
+                            </div>
+
+                        </div>
+                        <img src="img/post3.png" alt="travelling">
+                        <div class="categoryButton categoryButton_purple"><i class="fas fa-bus-alt"></i></div>
+                    </div>
+
+                    <div class="posts__content">
+                        <p class="posts__message">Aliquam quis pulvinar purus</p>
+                        <p class="posts__company">bus trans</p>
+                        <p class="posts__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(365)</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="posts__item posts__item_green">
+                    <div class="posts__img">
+                        <div class="posts__modal">
+                            <div class="subButton"><i class="fas fa-search"></i><span>show more</span></div>
+                            <div class="modIcons">
+                                <p class="modIcons__rating">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </p>
+                                <i class="far fa-comments"></i>
+                            </div>
+
+                        </div>
+                        <img src="img/post1.png" alt="House in Dubai">
+                        <div class="posts__price">$2,990</div>
+                        <div class="categoryButton categoryButton_green"><i class="fas fa-home"></i></div>
+                    </div>
+
+                    <div class="posts__content">
+                        <p class="posts__message">4 bedrooms house for rent in Dubai</p>
+                        <p class="posts__company">Reality agency</p>
+                        <p class="posts__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(165)</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="comment comment_orange">
+                    <div class="comment__img">
+                        <img src="img/post5.png" alt="Vision Agency">
+
+                        <div class="comment__caption">
+
+                            <h3 class="comment__company">Skybox club</h3>
+                            <p class="comment__rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(1365)</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="comment__content">
+                        <div class="comment__picture">
+                            <div class="categoryButton categoryButton_orange"><i class="fas fa-home"></i></div>
+                            <div class="line">
+
+                            </div>
+                            <div class="comment__user">
+                                <img src="img/user2.png" alt="Lucy">
+                            </div>
+                        </div>
+                        <div class="message">
+                            <p class="message__rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </p>
+                            <p class="message__author">Peter135</p>
+                            <p class="message__text">“Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim faucibus,
+                                quis posuere orci ornare. Duis mattis sagittis fringilla.”<a href="#">...read more</a> </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="posts__item posts__item_green">
+                    <div class="posts__img">
+                        <div class="posts__modal">
+                            <div class="subButton"><i class="fas fa-search"></i><span>show more</span></div>
+                            <div class="modIcons">
+                                <p class="modIcons__rating">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </p>
+                                <i class="far fa-comments"></i>
+                            </div>
+
+                        </div>
+                        <img src="img/post1.png" alt="House in Dubai">
+                        <div class="posts__price">$2,990</div>
+                        <div class="categoryButton categoryButton_green"><i class="fas fa-home"></i></div>
+                    </div>
+
+                    <div class="posts__content">
+                        <p class="posts__message">2 bedrooms house for rent in Dubai</p>
+                        <p class="posts__company">Vision agency</p>
+                        <p class="posts__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(365)</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="posts__item posts__item_orange">
+                    <div class="posts__img">
+                        <div class="posts__modal">
+                            <div class="subButton"><i class="fas fa-search"></i><span>show more</span></div>
+                            <div class="modIcons">
+                                <p class="modIcons__rating">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </p>
+                                <i class="far fa-comments"></i>
+                            </div>
+
+                        </div>
+                        <img src="img/post2.png" alt="party">
+                        <div class="categoryButton categoryButton_orange"><i class="fas fa-music"></i></div>
+                    </div>
+
+                    <div class="posts__content">
+                        <p class="posts__message">Beach party festival 2014</p>
+                        <p class="posts__company">Long Beach</p>
+                        <p class="posts__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(1165)</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="posts__load"><a href="#">Load more <i class="fas fa-long-arrow-alt-right"></i></a></div>
+            </div>
+        </div>
+<!--        <div class="divide"><hr></div>-->
+        <div class="offer">
+            <div class="container">
+                <div class="offer__header">
+                    <h2 class="offer__title">What can DuHoot offer to you?</h2>
+                    <p class="offer__subTitle">Etiam cursus ipsum quis enim faucibus</p>
+                </div>
+                <div class="offer__categories">
+                    <div class="category"><i class="fas fa-home"></i></div>
+                    <hr>
+                    <div class="category"><img src="img/icon2.png" alt=""></div>
+                    <hr>
+                    <div class="category"><i class="fas fa-graduation-cap"></i></div>
+                    <hr>
+                    <div class="category"><i class="fas fa-music"></i></div>
+                    <hr>
+                    <div class="category"><i class="fas fa-bus-alt"></i></div>
+                </div>
+                <div class="reality">
+                    <h3 class="reality__title">Reality</h3>
+                    <div class="reality__content">
+                        <div class="reality__item">
+                            <div class="reality__icon"><i class="fas fa-bolt"></i></div>
+                            <div class="reality__text">Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus. Morbi gravida tellus in purus pharetra,
+                                vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.</div>
+                        </div>
+                        <div class="reality__item">
+                            <div class="reality__icon"><i class="fas fa-leaf"></i></div>
+                            <div class="reality__text">Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus. Morbi gravida tellus in purus pharetra,
+                                vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="subscribe">
+                <h2 class="subscribe__heading">Subscribe to our newsletter</h2>
+                <label class="choice">
+                    <i class="far fa-envelope"></i>
+                    <input type="email" class="choice__select" placeholder="your@email.com">
+                    <input type="submit" class="mainButton" value="SUBSCRIBE">
+                </label>
+
+            </div>
+            <div class="footer__bottom">
+                <div class="links">
+                    <p class="links__header">Ipsum quis</p>
+                    <ul class="links__list">
+                        <li class="links__item"><a class="link" href="#">Aliquam quis</a></li>
+                        <li class="links__item"><a class="link" href="#">Pulvinar purus</a></li>
+                        <li class="links__item"><a class="link" href="#">Etiam cursus</a></li>
+                        <li class="links__item"><a class="link" href="#">Ipsum quis</a></li>
+                        <li class="links__item"><a class="link" href="#">Enim faucibus</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <p class="links__header">Ipsum quis</p>
+                    <ul class="links__list">
+                        <li class="links__item"><a class="link" href="#">Aliquam quis</a></li>
+                        <li class="links__item"><a class="link" href="#">Pulvinar purus</a></li>
+                        <li class="links__item"><a class="link" href="#">Etiam cursus</a></li>
+                        <li class="links__item"><a class="link" href="#">Ipsum quis</a></li>
+                        <li class="links__item"><a class="link" href="#">Enim faucibus</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <p class="links__header">Follow us</p>
+                    <ul class="links__list links__list_flex">
+                        <li class="links__item"><a class="link" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="links__item"><a class="link" href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="links__item"><a class="link" href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li class="links__item"><a class="link" href="#"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                    <p class="links__copy">Copyright &copy; 2020 Sidokur Oleksandr All Rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
