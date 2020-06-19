@@ -1,93 +1,121 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\000032}}
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\000037}}
 body {
   font-family: 'Roboto', sans-serif; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\0000310}}
 img {
   width: 100%;
   display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\0000316}}
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\0000321}}
-  .header__slider {
-    width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\0000324}}
-  .header__caption {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\0000330}}
-  .header__title {
-    position: relative;
-    top: 100px;
-    text-transform: uppercase;
-    padding: 20px 0;
-    font-size: 60px;
-    border-top: white solid 2px;
-    border-bottom: white solid 2px;
-    color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\0000340}}
-  .header__button {
-    width: 195px;
-    position: relative;
-    top: 100px;
-    margin-top: 50px;
-    color: white;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 20px 35px;
-    border: 2px solid white;
-    background: transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\0000352}}
-    .header__button:hover {
-      border-color: #2ecc71;
-      color: #2ecc71; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\0000315}}
 .container {
   margin: 0 auto;
   max-width: 1600px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\000031}}
+.header {
+  background-color: #252e30; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\000033}}
+  .header .slider {
+    position: relative;
+    display: flex;
+    justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\000037}}
+    .header .slider .container {
+      position: absolute;
+      width: 100%;
+      max-width: 1200px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\0000317}}
+    .header .slider__caption {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\0000323}}
+    .header .slider__title {
+      position: relative;
+      top: 100px;
+      text-transform: uppercase;
+      padding: 20px 0;
+      font-size: 60px;
+      border-top: white solid 2px;
+      border-bottom: white solid 2px;
+      color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\0000333}}
+    .header .slider__button {
+      display: inline-block;
+      text-decoration: none;
+      width: 195px;
+      position: relative;
+      top: 100px;
+      margin-top: 50px;
+      color: white;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 20px 35px;
+      border: 2px solid white;
+      background: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\0000347}}
+      .header .slider__button:hover {
+        border-color: #2ecc71;
+        color: #2ecc71; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\0000352}}
+    .header .slider__counters {
+      align-self: flex-end;
+      position: absolute;
+      bottom: 60px;
+      right: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\0000358}}
+      .header .slider__counters .counter {
+        width: 11px;
+        height: 11px;
+        border: 2px solid white;
+        border-radius: 50%;
+        margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\0000364}}
+        .header .slider__counters .counter:last-child {
+          margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\0000367}}
+        .header .slider__counters .counter_active {
+          background-color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\0000376}}
 nav {
   background-color: #252e30; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\0000378}}
   nav .container {
     max-width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\0000384}}
   nav .menu {
     display: flex;
     align-items: center;
     list-style-type: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\0000388}}
     nav .menu__item {
       display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\0000390}}
       nav .menu__item:first-of-type .menu__link {
         padding-left: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\0000393}}
       nav .menu__item:last-of-type .menu__link {
         padding-right: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\0000396}}
       nav .menu__item:hover .menu__link {
         color: #2ecc71; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\00003100}}
     nav .menu__mobile {
       cursor: pointer;
       display: none;
@@ -95,21 +123,21 @@ nav {
       height: 45px;
       background-color: white;
       border-radius: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\00003107}}
       nav .menu__mobile svg {
         max-width: 100%;
         max-height: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\00003110}}
         nav .menu__mobile svg line {
           stroke: #2ecc71;
           stroke-width: 5; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\00003115}}
       nav .menu__mobile:hover {
         background-color: #2ecc71; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\00003117}}
         nav .menu__mobile:hover line {
           stroke: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\00003122}}
     nav .menu__link {
       display: block;
       padding: 20px;
@@ -118,11 +146,11 @@ nav {
       font-size: 16px;
       font-weight: bold;
       text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\00003133}}
   nav .logo {
     display: flex;
     align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\00003136}}
     nav .logo__favicon {
       margin: 15px 20px 15px 10px;
       background-color: #4b5456;
@@ -133,192 +161,279 @@ nav {
       height: 42px;
       font-weight: bold;
       text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\00003147}}
     nav .logo__title {
       font-size: 30px;
       color: white;
       text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\00003151}}
       nav .logo__title span {
         color: #2ecc71; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003145}}
+@media screen and (max-width: 1015px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\00003163}}
+  .header .slider__title {
+    position: static;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\00003167}}
+  .header .slider__button {
+    position: static; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\00003176}}
+  nav .menu__item {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\00003179}}
+  nav .menu__mobile {
+    display: inline-block;
+    margin-right: 10px; } }
+@media screen and (max-width: 750px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\00003191}}
+  .header .slider {
+    flex-direction: column; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\00003193}}
+    .header .slider .container {
+      position: static; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\00003197}}
+    .header .slider__title {
+      padding: 10px 0;
+      font-size: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\00003201}}
+    .header .slider__button {
+      margin-top: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_header\.scss}line{font-family:\00003204}}
+    .header .slider__counters {
+      display: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\000031}}
 .overview {
-  padding: 100px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003147}}
+  padding: 100px 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\000033}}
   .overview .container {
-    max-width: 1180px;
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\000039}}
   .overview__item {
-    width: 335px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003156}}
+    max-width: 335px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\0000312}}
   .overview__title {
     font-size: 30px;
     color: #566366;
     text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\0000317}}
   .overview__text {
     padding-top: 50px;
     font-size: 18px;
     color: #919191;
     line-height: 30px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003168}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\0000324}}
 .aboutMe {
   background-color: #f2f2f1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\0000326}}
   .aboutMe .container {
     display: flex;
+    align-items: center;
     flex-wrap: wrap; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\0000331}}
   .aboutMe__img {
     width: 610px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\0000334}}
   .aboutMe__content {
-    width: 780px;
-    padding: 90px 0 90px 100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003181}}
+    max-width: 780px;
+    padding-left: 100px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\0000338}}
   .aboutMe__title {
     padding-bottom: 25px;
     font-size: 30px;
     color: #566366;
     text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\0000344}}
   .aboutMe__text {
     padding: 15px 0;
     font-size: 18px;
     color: #919191;
     line-height: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003193}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\0000350}}
   .aboutMe__categories {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\0000354}}
     .aboutMe__categories .category {
       margin-top: 45px;
-      display: flex; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003200}}
+      display: flex;
+      width: 100%;
+      max-width: 320px;
+      justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\0000360}}
       .aboutMe__categories .category__content {
-        padding-left: 30px;
-        width: 280px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003204}}
+        max-width: 250px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\0000363}}
       .aboutMe__categories .category__icon {
-        width: 41px;
-        height: 41px;
+        max-width: 41px;
         fill: #2ecc71;
         fill-rule: evenodd; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003210}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\0000368}}
       .aboutMe__categories .category__title {
         font-size: 22px;
         color: #566366;
         text-transform: uppercase;
         padding-bottom: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\0000374}}
       .aboutMe__categories .category__text {
         font-size: 18px;
         color: #919191;
         line-height: 30px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003225}}
-.skills {
-  padding: 100px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003227}}
-  .skills .container {
-    max-width: 1200px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003233}}
-  .skills__content {
-    width: 560px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003236}}
-  .skills__title {
-    padding-bottom: 30px;
-    font-size: 30px;
-    color: #566366;
-    text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003242}}
-  .skills__text {
-    padding: 20px 0;
-    font-size: 18px;
-    color: #919191;
-    line-height: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003248}}
-  .skills__button {
-    width: 185px;
-    margin-top: 30px;
-    color: #2ecc71;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 20px 33px;
-    border: 2px solid #2ecc71;
-    background: transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003258}}
-    .skills__button:hover {
-      border-color: #566366;
-      color: #566366; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003263}}
-  .skills__level {
-    padding-top: 40px;
-    max-width: 560px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003267}}
-  .skills__name {
-    color: #566366;
-    font-size: 22px;
-    font-weight: bold;
-    text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003273}}
-  .skills__bar {
-    background-color: #f2f2f1;
-    height: 30px;
-    margin-top: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003278}}
-  .skills__progress {
-    width: 90%;
-    height: 100%;
-    color: white;
-    text-align: right;
-    line-height: 30px;
-    font-size: 18px;
-    font-weight: bold;
-    background-color: #2ecc71;
-    padding-right: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003288}}
-    .skills__progress_80 {
-      width: 80%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003291}}
-    .skills__progress_70 {
-      width: 70%; }
+@media screen and (max-width: 1400px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\0000385}}
+  .aboutMe .container {
+    justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\0000389}}
+  .aboutMe__content {
+    padding: 30px 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\0000392}}
+  .aboutMe__title {
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\0000395}}
+  .aboutMe__text {
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\0000398}}
+  .aboutMe__categories {
+    justify-content: center;
+    align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\00003102}}
+    .aboutMe__categories .category {
+      margin-top: 20px; } }
+@media screen and (max-width: 1015px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\00003112}}
+  .overview {
+    padding: 0 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\00003114}}
+    .overview .container {
+      flex-direction: column;
+      align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\00003118}}
+    .overview__item {
+      margin: 20px 0;
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_about\.scss}line{font-family:\00003122}}
+    .overview__text {
+      padding-top: 10px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_skills\.scss}line{font-family:\000032}}
+.skills .container {
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 100px 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_skills\.scss}line{font-family:\000039}}
+.skills__content {
+  width: 560px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_skills\.scss}line{font-family:\0000312}}
+.skills__title {
+  padding-bottom: 30px;
+  font-size: 30px;
+  color: #566366;
+  text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_skills\.scss}line{font-family:\0000318}}
+.skills__text {
+  padding: 20px 0;
+  font-size: 18px;
+  color: #919191;
+  line-height: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_skills\.scss}line{font-family:\0000324}}
+.skills__button {
+  cursor: pointer;
+  width: 190px;
+  margin-top: 30px;
+  color: #2ecc71;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px 33px;
+  border: 2px solid #2ecc71;
+  background: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_skills\.scss}line{font-family:\0000335}}
+  .skills__button:hover {
+    border-color: #566366;
+    color: #566366; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_skills\.scss}line{font-family:\0000340}}
+.skills__level {
+  padding-top: 40px;
+  max-width: 560px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_skills\.scss}line{font-family:\0000344}}
+.skills__name {
+  color: #566366;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_skills\.scss}line{font-family:\0000350}}
+.skills__bar {
+  background-color: #f2f2f1;
+  height: 30px;
+  margin-top: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_skills\.scss}line{font-family:\0000355}}
+.skills__progress {
+  width: 90%;
+  height: 100%;
+  color: white;
+  text-align: right;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #2ecc71;
+  padding-right: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_skills\.scss}line{font-family:\0000365}}
+  .skills__progress_80 {
+    width: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_skills\.scss}line{font-family:\0000368}}
+  .skills__progress_70 {
+    width: 70%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003296}}
+@media screen and (max-width: 1130px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_skills\.scss}line{font-family:\0000376}}
+  .skills .container {
+    justify-content: center;
+    padding: 30px 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_skills\.scss}line{font-family:\0000380}}
+  .skills__content {
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_skills\.scss}line{font-family:\0000383}}
+  .skills__button {
+    margin: 30px auto 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_resume\.scss}line{font-family:\000031}}
 .resume {
+  position: relative;
   padding: 100px 0;
-  background-color: #f2f2f1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003299}}
+  background-color: #f2f2f1;
+  display: flex;
+  justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_resume\.scss}line{font-family:\000037}}
   .resume .container {
-    max-width: 1020px;
+    max-width: 1040px;
     display: flex;
     flex-direction: column;
-    align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003305}}
+    align-items: center;
+    padding: 0 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_resume\.scss}line{font-family:\0000314}}
   .resume__title {
     font-size: 30px;
     color: #566366;
     text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_resume\.scss}line{font-family:\0000319}}
   .resume__text {
     padding: 50px 0;
     font-size: 18px;
     color: #919191;
     line-height: 30px;
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_resume\.scss}line{font-family:\0000326}}
   .resume__button {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
     width: 234px;
     color: #2ecc71;
     text-transform: uppercase;
@@ -327,102 +442,339 @@ nav {
     padding: 20px;
     border: 2px solid #2ecc71;
     background: transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_resume\.scss}line{font-family:\0000338}}
     .resume__button:hover {
       border-color: #566366;
       color: #566366; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_resume\.scss}line{font-family:\0000343}}
+  .resume::after {
+    content: '';
+    display: block;
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    bottom: -21px;
+    background-color: #f2f2f1;
+    transform: rotate(45deg); }
 
-@media screen and (max-width: 1400px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003334}}
-  .aboutMe .container {
-    justify-content: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003337}}
-  .aboutMe__img {
-    width: 610px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003340}}
-  .aboutMe__content {
-    padding: 30px 0 30px 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003344}}
-  .aboutMe__title {
-    text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003347}}
-  .aboutMe__text {
-    text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003350}}
-  .aboutMe__categories {
-    justify-content: center;
-    align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003354}}
-    .aboutMe__categories .category {
-      margin-top: 45px;
-      display: flex; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003357}}
-      .aboutMe__categories .category__content {
-        padding-left: 30px;
-        width: 280px; } }
-@media screen and (max-width: 1130px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003369}}
-  .skills {
-    padding: 30px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003371}}
-    .skills .container {
-      justify-content: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003374}}
-    .skills__content {
-      width: 560px;
-      text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003378}}
-    .skills__button {
-      margin: 30px auto 0; } }
-@media screen and (max-width: 1015px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003386}}
-  .header__title {
-    margin-top: 10px;
-    position: static;
-    text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003391}}
-  .header__button {
-    position: static; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_exp\.scss}line{font-family:\000033}}
+.exp .container {
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 100px 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_exp\.scss}line{font-family:\0000311}}
+.exp_line .container {
+  border-bottom: 1px solid #cccccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_exp\.scss}line{font-family:\0000315}}
+.exp__content {
+  width: 560px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_exp\.scss}line{font-family:\0000318}}
+.exp__title {
+  padding-bottom: 30px;
+  font-size: 30px;
+  color: #566366;
+  text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_exp\.scss}line{font-family:\0000324}}
+.exp__text {
+  padding: 20px 0;
+  font-size: 18px;
+  color: #919191;
+  line-height: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_exp\.scss}line{font-family:\0000331}}
+.exp__name {
+  color: #566366;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003398}}
-  nav .menu__item {
-    display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003401}}
-  nav .menu__mobile {
-    display: inline-block;
-    margin-right: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003406}}
-    nav .menu__mobile svg line {
-      stroke: #2ecc71;
-      stroke-width: 5; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003411}}
-    nav .menu__mobile:hover {
-      background-color: #2ecc71; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003413}}
-      nav .menu__mobile:hover line {
-        stroke: white; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003421}}
-  .overview {
-    padding: 10px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003423}}
-    .overview .container {
-      flex-direction: column;
-      align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003427}}
-    .overview__item {
-      margin: 20px 0;
-      text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003431}}
-    .overview__text {
-      padding-top: 10px; } }
-@media screen and (max-width: 750px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003438}}
-  .header__title {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_exp\.scss}line{font-family:\0000338}}
+.prof {
+  padding-top: 86px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_exp\.scss}line{font-family:\0000340}}
+  .prof__description {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #cccccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_exp\.scss}line{font-family:\0000344}}
+  .prof__title {
+    color: #566366;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_exp\.scss}line{font-family:\0000350}}
+  .prof__info {
     padding: 10px 0;
-    font-size: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/style\.scss}line{font-family:\00003442}}
-  .header__button {
-    margin-top: 25px; } }
+    font-size: 18px;
+    color: #919191;
+    line-height: 30px;
+    text-transform: capitalize; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_exp\.scss}line{font-family:\0000356}}
+    .prof__info span {
+      font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_exp\.scss}line{font-family:\0000360}}
+  .prof__years {
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    background-color: #2ecc71;
+    font-weight: bold;
+    font-size: 14px;
+    width: 71px;
+    height: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_exp\.scss}line{font-family:\0000372}}
+  .prof__text {
+    padding-top: 30px;
+    font-size: 18px;
+    color: #919191;
+    line-height: 30px; }
+
+@media screen and (max-width: 1130px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_exp\.scss}line{font-family:\0000382}}
+  .exp {
+    padding: 30px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_exp\.scss}line{font-family:\0000384}}
+    .exp .container {
+      justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_exp\.scss}line{font-family:\0000387}}
+    .exp__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_quotes\.scss}line{font-family:\000031}}
+.quotes {
+  background-color: #f2f2f1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_quotes\.scss}line{font-family:\000033}}
+  .quotes .container {
+    max-width: 1080px;
+    padding: 100px 10px;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_quotes\.scss}line{font-family:\000038}}
+  .quotes__text {
+    font-size: 24px;
+    color: #919191;
+    line-height: 36px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_quotes\.scss}line{font-family:\0000313}}
+  .quotes__author {
+    font-size: 18px;
+    color: #566366;
+    text-transform: uppercase;
+    padding: 50px 0;
+    font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_quotes\.scss}line{font-family:\0000320}}
+  .quotes .quotes__counters {
+    display: flex;
+    justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_quotes\.scss}line{font-family:\0000323}}
+    .quotes .quotes__counters .counter {
+      width: 11px;
+      height: 11px;
+      border: 2px solid #2ecc71;
+      border-radius: 50%;
+      margin-right: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_quotes\.scss}line{font-family:\0000329}}
+      .quotes .quotes__counters .counter:last-child {
+        margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_quotes\.scss}line{font-family:\0000332}}
+      .quotes .quotes__counters .counter_active {
+        background-color: #2ecc71; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_portfolio\.scss}line{font-family:\000032}}
+.portfolio .container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 100px 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_portfolio\.scss}line{font-family:\0000310}}
+.portfolio__title {
+  font-size: 30px;
+  color: #566366;
+  text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_portfolio\.scss}line{font-family:\0000317}}
+.portfolio__text {
+  padding: 45px 0;
+  font-size: 18px;
+  color: #919191;
+  line-height: 30px;
+  max-width: 1020px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_portfolio\.scss}line{font-family:\0000324}}
+.portfolio__content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_portfolio\.scss}line{font-family:\0000330}}
+.portfolio__box {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 366px;
+  background-color: #252e30;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_portfolio\.scss}line{font-family:\0000338}}
+  .portfolio__box .filter {
+    padding: 40px;
+    font-size: 18px;
+    text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_portfolio\.scss}line{font-family:\0000343}}
+    .portfolio__box .filter__heading {
+      color: white;
+      text-transform: uppercase;
+      padding-bottom: 20px;
+      font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_portfolio\.scss}line{font-family:\0000349}}
+    .portfolio__box .filter__list {
+      list-style-type: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_portfolio\.scss}line{font-family:\0000352}}
+    .portfolio__box .filter__item {
+      line-height: 30px;
+      text-transform: capitalize;
+      color: #919191;
+      cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_portfolio\.scss}line{font-family:\0000357}}
+      .portfolio__box .filter__item:hover {
+        color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_portfolio\.scss}line{font-family:\0000364}}
+.portfolio__show {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(46, 204, 113, 0.75);
+  cursor: pointer;
+  opacity: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_portfolio\.scss}line{font-family:\0000376}}
+  .portfolio__show:hover {
+    transition: opacity .5s;
+    opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_portfolio\.scss}line{font-family:\0000382}}
+.portfolio__icon {
+  width: 49px;
+  height: 49px;
+  fill-rule: evenodd;
+  fill: white; }
+
+@media screen and (max-width: 1120px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_portfolio\.scss}line{font-family:\0000393}}
+  .portfolio__content {
+    justify-content: space-around; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_contact\.scss}line{font-family:\000031}}
+.contact {
+  background-color: #252e30; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_contact\.scss}line{font-family:\000033}}
+  .contact .container {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_contact\.scss}line{font-family:\0000310}}
+  .contact__content {
+    max-width: 550px;
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_contact\.scss}line{font-family:\0000314}}
+  .contact__title {
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_contact\.scss}line{font-family:\0000320}}
+  .contact__text {
+    padding: 20px 0;
+    font-size: 18px;
+    color: #919191;
+    line-height: 30px;
+    list-style-type: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_contact\.scss}line{font-family:\0000326}}
+    .contact__text li {
+      width: 225px;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_contact\.scss}line{font-family:\0000331}}
+      .contact__text li span:first-child {
+        color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_contact\.scss}line{font-family:\0000337}}
+  .contact__form {
+    padding-top: 40px;
+    max-width: 540px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_contact\.scss}line{font-family:\0000341}}
+    .contact__form label {
+      display: block;
+      color: white;
+      font-size: 18px;
+      padding: 40px 0 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_contact\.scss}line{font-family:\0000346}}
+      .contact__form label::after {
+        content: ' *';
+        color: #919191; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_contact\.scss}line{font-family:\0000352}}
+  .contact__field {
+    width: 100%;
+    display: block;
+    padding: 19px;
+    background-color: #4b5456;
+    border: none;
+    font-size: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_contact\.scss}line{font-family:\0000360}}
+  .contact textarea.contact__field {
+    height: 280px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_contact\.scss}line{font-family:\0000363}}
+  .contact__btn {
+    margin-top: 40px;
+    padding: 20px 35px;
+    color: white;
+    background-color: #191f21;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_contact\.scss}line{font-family:\0000373}}
+    .contact__btn:hover {
+      background-color: #2ecc71; }
+
+@media screen and (max-width: 1120px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_contact\.scss}line{font-family:\0000380}}
+  .contact .container {
+    align-items: center;
+    flex-direction: column; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_contact\.scss}line{font-family:\0000384}}
+  .contact__title {
+    text-align: center; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_footer\.scss}line{font-family:\000031}}
+.footer {
+  background-color: #191f21;
+  text-align: center;
+  padding: 50px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_footer\.scss}line{font-family:\000036}}
+  .footer__copy {
+    color: #4b5456;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_footer\.scss}line{font-family:\0000312}}
+  .footer__socials {
+    max-width: 260px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_footer\.scss}line{font-family:\0000317}}
+    .footer__socials .social {
+      height: 34px;
+      width: 34px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      background-color: #4b5456;
+      cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sasha\/WEB\/Full\%20Stack\/Portfolio\/scss\/_footer\.scss}line{font-family:\0000326}}
+      .footer__socials .social :hover {
+        color: white; }
 
 /*# sourceMappingURL=style.css.map */

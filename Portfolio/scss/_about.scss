@@ -1,0 +1,126 @@
+.overview{
+  padding:100px 10px;
+  .container{
+    max-width:1200px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+  }
+  &__item{
+    max-width:335px;
+  }
+  &__title{
+    font-size:30px;
+    color: $darkTitle;
+    text-transform: uppercase;
+  }
+  &__text{
+    padding-top: 50px;
+    font-size:18px;
+    color: #919191;
+    line-height:30px;
+  }
+}
+.aboutMe{
+  background-color: $lightBackGr;
+  .container{
+    display:flex;
+    align-items: center;
+    flex-wrap:wrap;
+  }
+  &__img{
+    width:610px;
+  }
+  &__content{
+    max-width:780px;
+    padding-left: 100px;
+  }
+  &__title{
+    padding-bottom:25px;
+    font-size:30px;
+    color: $darkTitle;
+    text-transform: uppercase;
+  }
+  &__text{
+    padding: 15px 0;
+    font-size:18px;
+    color: #919191;
+    line-height:30px;
+  }
+  &__categories{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .category{
+      margin-top:45px;
+      display:flex;
+      width:100%;
+      max-width:320px;
+      justify-content: space-between;
+      &__content{
+        max-width:250px;
+      }
+      &__icon{
+        max-width:41px;
+        fill: $greenActive;
+        fill-rule:evenodd;
+      }
+      &__title{
+        font-size:22px;
+        color: $darkTitle;
+        text-transform: uppercase;
+        padding-bottom:20px;
+      }
+      &__text{
+        font-size:18px;
+        color: #919191;
+        line-height:30px;
+      }
+    }
+
+  }
+}
+@media screen and(max-width:1400px){
+  .aboutMe{
+    .container{
+      justify-content: center;
+    }
+
+    &__content{
+      padding:30px 10px;
+    }
+    &__title{
+      text-align: center;
+    }
+    &__text{
+      text-align: center;
+    }
+    &__categories{
+
+      justify-content: center;
+      align-items: center;
+      .category{
+        margin-top:20px;
+        &__content{
+        }
+      }
+
+    }
+  }
+}
+@media screen and (max-width:1015px){
+  .overview{
+    padding:0 10px;
+    .container{
+      flex-direction: column;
+      align-items: center;
+    }
+    &__item{
+      margin:20px 0;
+      text-align: center;
+    }
+    &__text{
+      padding-top: 10px;
+    }
+  }
+}

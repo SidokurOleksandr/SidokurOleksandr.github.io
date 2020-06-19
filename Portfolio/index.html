@@ -4,21 +4,27 @@
     <meta charset="UTF-8">
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/animate.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/icofont.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header class="header animated wow slideInDown">
-    <div class="header__slider">
+<header class="header">
+    <div class="slider animated wow slideInDown">
         <img src="img/1.png" alt="designer">
+        <div class="container">
+            <div class="slider__caption">
+                <h2 class="slider__title">Web & graphic designer</h2>
+                <a href="#" class="slider__button">Learn more</a>
+            </div>
+            <div class="slider__counters">
+                <div class="counter counter_active"></div>
+                <div class="counter"></div>
+                <div class="counter"></div>
+            </div>
+        </div>
     </div>
-    <div class="header__caption">
-        <h1 class="header__title">Web & graphic designer</h1>
-        <button class="header__button">Learn more</button>
-    </div>
-</header>
-<main>
     <nav>
         <div class="container">
             <div class="logo">
@@ -44,6 +50,9 @@
             </ul>
         </div>
     </nav>
+</header>
+<main>
+
     <div class="overview">
         <div class="container">
             <div class="overview__item">
@@ -122,7 +131,7 @@
                     saepe sapiente ullam.</p>
                 <p class="skills__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur delectus
                     doloribus et eum id illum maiores maxime minus</p>
-                <div class="skills__button">contact me</div>
+                <button class="skills__button">contact me</button>
             </div>
             <div class="skills__content">
                 <div class="skills__level">
@@ -152,14 +161,242 @@
             </div>
         </div>
     </div>
-    <div class="resume animated wow slideInUp">
+    <div class="resume animated wow slideInRight">
         <div class="container">
             <h2 class="resume__title">resume</h2>
             <p class="resume__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque beatae blanditiis cupiditate dignissimos distinctio dolor, earum enim excepturi fuga fugit hic ipsum itaque libero non perferendis quod reiciendis tempore voluptatem?</p>
-            <button class="resume__button">Download resume</button>
+            <a href="#" class="resume__button">Download resume</a>
+        </div>
+    </div>
+    <div class="exp exp_line">
+        <div class="container">
+            <div class="exp__content">
+                <h2 class="exp__title">My education</h2>
+                <p class="exp__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur delectus
+                    doloribus et eum id illum maiores maxime minus, molestias omnis possimus qui quibusdam quod ratione
+                    saepe sapiente ullam.</p>
+                <p class="exp__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur delectus
+                    doloribus et eum id illum maiores maxime minus</p>
+            </div>
+            <div class="exp__content">
+                <div class="prof">
+                    <div class="prof__description">
+                        <h3 class="prof__title">graphic design diploma</h3>
+                        <div class="prof__info"><span>reeves college </span>/ june 2008 - may 2010</div>
+                        <div class="prof__years">4.0 GPA</div>
+                    </div>
+                    <p class="prof__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur delectus
+                        doloribus et eum id illum maiores maxime minus, molestias omnis possimus qui quibusdam quod.</p>
+                </div>
+                <div class="prof">
+                    <div class="prof__description">
+                        <h3 class="prof__title">cit diploma</h3>
+                        <div class="prof__info"><span>lethbridge college </span>/ june 2006 - may 2008</div>
+                        <div class="prof__years">4.0 GPA</div>
+                    </div>
+                    <p class="prof__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur delectus
+                        doloribus et eum id illum maiores maxime minus, molestias omnis possimus qui quibusdam quod.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="exp">
+        <div class="container">
+            <div class="exp__content">
+                <h2 class="exp__title">Work Experience</h2>
+                <p class="exp__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur delectus
+                    doloribus et eum id illum maiores maxime minus, molestias omnis possimus qui quibusdam quod ratione
+                    saepe sapiente ullam.</p>
+                <p class="exp__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur delectus
+                    doloribus et eum id illum maiores maxime minus</p>
+            </div>
+            <div class="exp__content">
+                <div class="prof">
+                    <div class="prof__description">
+                        <h3 class="prof__title">lead web designer</h3>
+                        <div class="prof__info"><span>ABC company, saskatoon </span>/ june 20011 - present</div>
+                        <div class="prof__years">3 Years</div>
+                    </div>
+                    <p class="prof__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur delectus
+                        doloribus et eum id illum maiores maxime minus, molestias omnis possimus qui quibusdam quod.</p>
+                </div>
+                <div class="prof">
+                    <div class="prof__description">
+                        <h3 class="prof__title">junior designer</h3>
+                        <div class="prof__info"><span>XYZ company, lethbridge </span>/ june 2008 - may 2009</div>
+                        <div class="prof__years">1 Years</div>
+                    </div>
+                    <p class="prof__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur delectus
+                        doloribus et eum id illum maiores maxime minus, molestias omnis possimus qui quibusdam quod.</p>
+                </div>
+                <div class="prof">
+                    <div class="prof__description">
+                        <h3 class="prof__title">Web developer</h3>
+                        <div class="prof__info"><span>the company, lethbridge </span>/ june 2007 - may 2008</div>
+                        <div class="prof__years">1 Years</div>
+                    </div>
+                    <p class="prof__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur delectus
+                        doloribus et eum id illum maiores maxime minus, molestias omnis possimus qui quibusdam quod.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="quotes">
+        <div class="container">
+            <p class="quotes__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur delectus
+                doloribus et eum id illum maiores maxime minus, molestias omnis possimus qui quibusdam quod ratione
+                saepe sapiente ullam.</p>
+            <p class="quotes__author">John Stone</p>
+            <div class="quotes__counters">
+                <div class="counter counter_active"></div>
+                <div class="counter"></div>
+                <div class="counter"></div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio">
+        <div class="container">
+            <h2 class="portfolio__title">portfolio</h2>
+            <p class="portfolio__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur delectus
+                doloribus et eum id illum maiores maxime minus, molestias omnis possimus qui quibusdam quod ratione
+                saepe sapiente ullam.</p>
+            <div class="portfolio__content">
+                <div class="portfolio__box">
+                    <div class="filter">
+                        <p class="filter__heading">filter by categories</p>
+                        <ul class="filter__list">
+                            <li class="filter__item">All</li>
+                            <li class="filter__item">themes</li>
+                            <li class="filter__item">icons</li>
+                            <li class="filter__item">patterns</li>
+                            <li class="filter__item">mockups</li>
+                            <li class="filter__item">UI Kits</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="portfolio__box">
+                    <img src="img/3.png" alt="restaurant">
+                    <div class="portfolio__show">
+                        <svg class="portfolio__icon">
+                            <path d="M47.293,47.428 C46.120,48.601 44.218,48.601 43.044,47.428 L33.583,37.966 C25.348,44.124 13.669,43.540 6.185,36.056 C-2.027,27.845 -2.027,14.531 6.185,6.320 C14.396,-1.892 27.710,-1.892 35.921,6.320 C43.406,13.804 43.989,25.483 37.831,33.718 L47.293,43.179 C48.466,44.353 48.466,46.255 47.293,47.428 ZM31.673,10.568 C25.808,4.702 16.298,4.702 10.433,10.568 C4.567,16.433 4.567,25.943 10.433,31.808 C16.298,37.674 25.808,37.674 31.673,31.808 C37.539,25.943 37.539,16.433 31.673,10.568 Z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="portfolio__box">
+                    <img src="img/4.png" alt="restaurant">
+                    <div class="portfolio__show">
+                        <svg class="portfolio__icon">
+                            <path d="M47.293,47.428 C46.120,48.601 44.218,48.601 43.044,47.428 L33.583,37.966 C25.348,44.124 13.669,43.540 6.185,36.056 C-2.027,27.845 -2.027,14.531 6.185,6.320 C14.396,-1.892 27.710,-1.892 35.921,6.320 C43.406,13.804 43.989,25.483 37.831,33.718 L47.293,43.179 C48.466,44.353 48.466,46.255 47.293,47.428 ZM31.673,10.568 C25.808,4.702 16.298,4.702 10.433,10.568 C4.567,16.433 4.567,25.943 10.433,31.808 C16.298,37.674 25.808,37.674 31.673,31.808 C37.539,25.943 37.539,16.433 31.673,10.568 Z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="portfolio__box">
+                    <img src="img/5.png" alt="restaurant">
+                    <div class="portfolio__show">
+                        <svg class="portfolio__icon">
+                            <path d="M47.293,47.428 C46.120,48.601 44.218,48.601 43.044,47.428 L33.583,37.966 C25.348,44.124 13.669,43.540 6.185,36.056 C-2.027,27.845 -2.027,14.531 6.185,6.320 C14.396,-1.892 27.710,-1.892 35.921,6.320 C43.406,13.804 43.989,25.483 37.831,33.718 L47.293,43.179 C48.466,44.353 48.466,46.255 47.293,47.428 ZM31.673,10.568 C25.808,4.702 16.298,4.702 10.433,10.568 C4.567,16.433 4.567,25.943 10.433,31.808 C16.298,37.674 25.808,37.674 31.673,31.808 C37.539,25.943 37.539,16.433 31.673,10.568 Z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="portfolio__box">
+                    <img src="img/6.png" alt="restaurant">
+                    <div class="portfolio__show">
+                        <svg class="portfolio__icon">
+                            <path d="M47.293,47.428 C46.120,48.601 44.218,48.601 43.044,47.428 L33.583,37.966 C25.348,44.124 13.669,43.540 6.185,36.056 C-2.027,27.845 -2.027,14.531 6.185,6.320 C14.396,-1.892 27.710,-1.892 35.921,6.320 C43.406,13.804 43.989,25.483 37.831,33.718 L47.293,43.179 C48.466,44.353 48.466,46.255 47.293,47.428 ZM31.673,10.568 C25.808,4.702 16.298,4.702 10.433,10.568 C4.567,16.433 4.567,25.943 10.433,31.808 C16.298,37.674 25.808,37.674 31.673,31.808 C37.539,25.943 37.539,16.433 31.673,10.568 Z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="portfolio__box">
+                    <img src="img/7.png" alt="restaurant">
+                    <div class="portfolio__show">
+                        <svg class="portfolio__icon">
+                            <path d="M47.293,47.428 C46.120,48.601 44.218,48.601 43.044,47.428 L33.583,37.966 C25.348,44.124 13.669,43.540 6.185,36.056 C-2.027,27.845 -2.027,14.531 6.185,6.320 C14.396,-1.892 27.710,-1.892 35.921,6.320 C43.406,13.804 43.989,25.483 37.831,33.718 L47.293,43.179 C48.466,44.353 48.466,46.255 47.293,47.428 ZM31.673,10.568 C25.808,4.702 16.298,4.702 10.433,10.568 C4.567,16.433 4.567,25.943 10.433,31.808 C16.298,37.674 25.808,37.674 31.673,31.808 C37.539,25.943 37.539,16.433 31.673,10.568 Z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="portfolio__box">
+                    <img src="img/8.png" alt="restaurant">
+                    <div class="portfolio__show">
+                        <svg class="portfolio__icon">
+                            <path d="M47.293,47.428 C46.120,48.601 44.218,48.601 43.044,47.428 L33.583,37.966 C25.348,44.124 13.669,43.540 6.185,36.056 C-2.027,27.845 -2.027,14.531 6.185,6.320 C14.396,-1.892 27.710,-1.892 35.921,6.320 C43.406,13.804 43.989,25.483 37.831,33.718 L47.293,43.179 C48.466,44.353 48.466,46.255 47.293,47.428 ZM31.673,10.568 C25.808,4.702 16.298,4.702 10.433,10.568 C4.567,16.433 4.567,25.943 10.433,31.808 C16.298,37.674 25.808,37.674 31.673,31.808 C37.539,25.943 37.539,16.433 31.673,10.568 Z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="portfolio__box">
+                    <img src="img/9.png" alt="restaurant">
+                    <div class="portfolio__show">
+                        <svg class="portfolio__icon">
+                            <path d="M47.293,47.428 C46.120,48.601 44.218,48.601 43.044,47.428 L33.583,37.966 C25.348,44.124 13.669,43.540 6.185,36.056 C-2.027,27.845 -2.027,14.531 6.185,6.320 C14.396,-1.892 27.710,-1.892 35.921,6.320 C43.406,13.804 43.989,25.483 37.831,33.718 L47.293,43.179 C48.466,44.353 48.466,46.255 47.293,47.428 ZM31.673,10.568 C25.808,4.702 16.298,4.702 10.433,10.568 C4.567,16.433 4.567,25.943 10.433,31.808 C16.298,37.674 25.808,37.674 31.673,31.808 C37.539,25.943 37.539,16.433 31.673,10.568 Z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="portfolio__box">
+                    <img src="img/10.png" alt="restaurant">
+                    <div class="portfolio__show">
+                        <svg class="portfolio__icon">
+                            <path d="M47.293,47.428 C46.120,48.601 44.218,48.601 43.044,47.428 L33.583,37.966 C25.348,44.124 13.669,43.540 6.185,36.056 C-2.027,27.845 -2.027,14.531 6.185,6.320 C14.396,-1.892 27.710,-1.892 35.921,6.320 C43.406,13.804 43.989,25.483 37.831,33.718 L47.293,43.179 C48.466,44.353 48.466,46.255 47.293,47.428 ZM31.673,10.568 C25.808,4.702 16.298,4.702 10.433,10.568 C4.567,16.433 4.567,25.943 10.433,31.808 C16.298,37.674 25.808,37.674 31.673,31.808 C37.539,25.943 37.539,16.433 31.673,10.568 Z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="container">
+            <div class="contact__content">
+                <h2 class="contact__title">contact me</h2>
+                <p class="contact__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur delectus
+                    doloribus et eum id illum maiores maxime minus, molestias omnis possimus qui quibusdam quod ratione
+                    saepe sapiente ullam.</p>
+                <ul class="contact__text">
+                    <li>122 33rd Street East</li>
+                    <li>Saskatoon, SK</li>
+                    <li>S7K 1R9</li>
+                </ul>
+                <ul class="contact__text">
+                    <li><span>Email:</span> <span>info@focal.com</span></li>
+                    <li><span>Phone:</span> <span>1-306-222-2323</span></li>
+                </ul>
+            </div>
+            <div class="contact__content">
+                <form action="#" class="contact__form">
+                        <label for="name">Name</label>
+                        <input class="contact__field" type="text" id="name">
+                        <label for="email">Email address</label>
+                        <input class="contact__field" type="email" id="email">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="contact__field"></textarea>
+                        <input class="contact__btn" type="submit" value="CONTACT ME">
+
+                </form>
+            </div>
         </div>
     </div>
 </main>
+<footer class="footer">
+    <p class="footer__copy">Copyright 2020 Focal - built with passion </p>
+    <div class="footer__socials">
+        <div class="social">
+            <i class="icofont-twitter icofont-2x"></i>
+        </div>
+        <div class="social">
+            <i class="icofont-facebook icofont-2x"></i>
+        </div>
+        <div class="social">
+            <i class="icofont-pinterest icofont-2x"></i>
+        </div>
+        <div class="social">
+            <i class="icofont-google-plus icofont-2x"></i>
+        </div>
+        <div class="social">
+            <i class="icofont-dribbble icofont-2x"></i>
+        </div>
+        <div class="social">
+            <i class="icofont-instagram icofont-2x"></i>
+        </div>
+
+    </div>
+</footer>
 <script src="js/wow.min.js"></script>
 <script>
     new WOW().init();

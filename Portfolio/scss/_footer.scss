@@ -1,0 +1,31 @@
+.footer{
+  background-color: #191f21;
+  text-align: center;
+  padding:50px 0;
+
+  &__copy{
+    color: #4b5456;
+    font-size:14px;
+    text-transform:uppercase;
+    font-weight:500;
+  }
+  &__socials{
+    max-width:260px;
+    display:flex;
+    justify-content: space-between;
+    margin:30px auto 0;
+      .social{
+        height: 34px;
+        width:34px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: #4b5456;
+        cursor:pointer;
+        :hover{
+          color:white;
+        }
+    }
+  }
+}

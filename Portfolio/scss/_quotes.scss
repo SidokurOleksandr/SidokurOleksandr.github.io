@@ -1,0 +1,38 @@
+.quotes{
+  background-color:$lightBackGr;
+  .container{
+    max-width:1080px;
+    padding:100px 10px;
+    text-align:center;
+  }
+  &__text{
+    font-size:24px;
+    color: #919191;
+    line-height:36px;
+  }
+  &__author{
+    font-size:18px;
+    color: $darkTitle;
+    text-transform: uppercase;
+    padding: 50px 0;
+    font-weight:bold;
+  }
+  .quotes__counters{
+    display:flex;
+    justify-content: center;
+    .counter{
+      width:11px;
+      height:11px;
+      border:2px solid $greenActive;
+      border-radius:50%;
+      margin-right:10px;
+      &:last-child{
+        margin-right:0;
+      }
+      &_active{
+        background-color:$greenActive;
+      }
+    }
+  }
+
+}
