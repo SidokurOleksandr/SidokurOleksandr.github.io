@@ -5,6 +5,12 @@
     padding:100px 10px;
     text-align:center;
   }
+  &__slide{
+    display:none;
+    &_active{
+      display:block;
+    }
+  }
   &__text{
     font-size:24px;
     color: #919191;
@@ -20,6 +26,7 @@
   .quotes__counters{
     display:flex;
     justify-content: center;
+    list-style-type: none;
     .counter{
       width:11px;
       height:11px;

@@ -1,19 +1,24 @@
 .header{
   background-color: $darkBG;
   .slider{
-    position:relative;
-    display:flex;
-    justify-content: center;
+position:relative;
     .container{
       position:absolute;
       width:100%;
       max-width:1200px;
-      height:100%;
       display:flex;
       justify-content: center;
       align-items: center;
-
     }
+    &__slide{
+      display:none;
+    }
+    &__slide_active{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    }
+
     &__caption{
 
       display:flex;
@@ -50,28 +55,34 @@
       }
     }
     &__counters{
-      align-self:flex-end;
-      position:absolute;
-      bottom:60px;
-      right:10px;
-      .counter{
-        width:11px;
-        height:11px;
-        border:2px solid white;
-        border-radius:50%;
-        margin-bottom:10px;
-        cursor:pointer;
-        &:last-child{
-          margin-bottom:0;
-        }
-        &_active{
-          background-color:white;
-        }
+      display:flex;
+      justify-content: center;
+      .container{
+        bottom:60px;
+        justify-content: flex-end;
       }
+      .counters{
+        list-style-type: none;
+        padding-right: 10px;
 
-    }
+        &__item{
+          width:11px;
+          height:11px;
+          border:2px solid white;
+          border-radius:50%;
+          margin-bottom:10px;
+          cursor:pointer;
+          &:last-child{
+            margin-bottom:0;
+          }
+          &_active{
+            background-color:white;
+          }
+        }
+
+      }
   }
-
+  }
 }
 nav{
   position:relative;
@@ -203,7 +214,9 @@ nav{
 @media screen and(max-width:750px){
   .header{
     .slider{
-      flex-direction:column;
+      &__slide{
+        flex-direction:column;
+      }
       .container{
         position:static;
 
