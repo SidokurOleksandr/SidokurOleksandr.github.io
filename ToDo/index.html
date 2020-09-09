@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+    <div class="modal">
+        <div class="login">
+            <h2 class="login__title">Login Page</h2>
+            <form name="loginForm" class="login__form" action="#">
+                <label for="email">
+                    <span>Email</span>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                    <span class="login__err" hidden>Wrong email</span>
+                </label>
+                <label for="password">
+                    <span>Password</span>
+                    <input type="password" name="pass" id="password" placeholder="Enter your password, 8 min, 12 max" maxlength="12">
+                    <span class="login__err" hidden>Wrong password</span>
+                </label>
+                <input type="submit" value="Login" id="logSub">
+            </form>
+        </div>
+        <div class="modal__content">
+            <h2 class="modal__heading"></h2>
+            <label><textarea id="modal__main" placeholder="New text of ToDo item..."></textarea></label>
+            <div class="modal__foot">
+                <input class="modal__btn" type="button" id="no" >
+                <input class="modal__btn" type="button" id="yes" >
+            </div>
+
+        </div>
+    </div>
+    <div class="todo">
+        <h1 class="todo__heading">todo list</h1>
+        <form action="#" class="newTask" name="addTask">
+            <label><input name="taskText" type="text" class="newTask__text" placeholder="Task"></label>
+            <input type="submit" value="ADD">
+        </form>
+        <div class="filters">
+            <i class="material-icons filters__date">unfold_more</i>
+            <div class="filters__priority">
+                <i id="prUp" class="material-icons">arrow_drop_up</i>
+                <span>123</span>
+                <i id="prDown" class="material-icons">arrow_drop_down</i>
+            </div>
+            <label class="filters__search"> <i class="material-icons">search</i> <input type="text" name="search"></label>
+            <i class="material-icons filters__options">filter_alt</i>
+        </div>
+        <ul class="todo__tasks">
+          <!--  <li class="task">
+                <div class="task__date"></div>
+                <div class="task__priority">1</div>
+                <div class="task__arrows">
+                    <i  class="material-icons">keyboard_arrow_up</i>
+                    <i  class="material-icons">keyboard_arrow_down</i>
+                </div>
+                <div class="task__text">Task for create user page</div>
+                <div class="task__operations">
+                    <div class="task__btn task__btn_green task__edit"><i class="material-icons">edit</i></div>
+                    <div class="task__btn task__btn_checked"><i class="material-icons">done</i></div>
+                    <div class="task__btn task__delete"><i class="material-icons">delete</i></div>
+                </div>
+            </li>-->
+        </ul>
+    </div>
+    <footer class="empty">No tasks</footer>
+<script src="js/script.js"></script>
+</body>
+
+</html>
